@@ -64,7 +64,6 @@ body {
   width: 75%;
   background-color: #152D65;
   color: white;
-  padding: 5px;
 }
 
 
@@ -78,6 +77,7 @@ header {
 h1 {
     color: white;
     padding: 5px;
+    margin: 5px 0;
 
 }
 
@@ -160,6 +160,7 @@ nav a {
 
 #agenda {
     background-color: #f4f4f4;
+    height: 180px;
 }
 
 #agenda a {
@@ -168,6 +169,10 @@ nav a {
     color: white;
     height: 25px;
     padding: 5px;
+}
+
+#agenda ul {
+  padding: 5px;
 }
 
 #topic_nav {
@@ -184,7 +189,6 @@ nav a {
 .topic_summary {
   border: 2px solid black;
   height: 100px;
-  margin-top: -5px;
 }
 
 /* SECTIONS */
