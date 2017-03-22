@@ -1,16 +1,36 @@
-* {
 
-    padding: 2px;
-    margin: 4px 0;
+
+body {
+  background-color: #f4f4f4;
+
+#wrapper_hide {
+    display: flex;
+    position: relative;
+    left: -240px;
+    transition: left 0.5s ease-out;
+}
+
+#wrapper_show {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: left 0.5s ease-out;
 }
 
 #container {
     background-color: #f4f4f4;
-    margin: 0 auto;
+    position: relative;
+    left: 240px;
 }
 
-body {
-  background-color: #f4f4f4;
+#container_dim {
+    background-color: black;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vw;
+    transition: opacity 0.5s ease-out;
 }
 
 /* SIZING */
@@ -57,6 +77,7 @@ header {
 h1 {
     color: white;
     padding: 5px;
+
 }
 
 #titlebar {
@@ -71,9 +92,6 @@ h1 {
   margin-left: 5px;
 }
 
-.p_two {
-  float: right;
-}
 
 #logo {
     height: 80px;
@@ -81,14 +99,46 @@ h1 {
     margin-left: 5px;
 }
 
-nav {
 
+/* MENU */
+
+nav {
+    width: 240px;
+    height: 100vw;
+    background-color: red;
+    position: fixed;
+    z-index: 2;
+    top: 0vw;
+    display: block;
+    box-shadow: 0px 0px 100px black;
+}
+
+#menu_tab_in {
+    position: fixed;
+    z-index: 2;
+    top: calc(0vw + 25px);
+    margin-left: 215px;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    transform: rotate(-90deg);
+    display: block;
+}
+
+#menu_tab_out {
+    position: fixed;
+    z-index: 2;
+    top: calc(0vw + 25px);
+    margin-left: 215px;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    transform: rotate(-90deg);
+    display: none;
 }
 
 nav ul {
     border: 2px dashed orange;
-    display: flex;
-    flex-flow: row wrap;
 }
 
 nav li {

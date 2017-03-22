@@ -15,23 +15,20 @@
     <![endif]-->
 
     <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+    <script src="scripts.js"></script>
 
 </head>
 <body>
-
-    <div id="container">
-
-
-<!-- HEADER -->
-
-        <header>
-
-                <div id="titlebar"><img src="images/bcit_logo.png" id="logo">
-                <p>bcit web development</p></div>
-
-                <nav>
-                    <div class="width_container">
-
+    
+    
+    <div id="wrapper_hide">
+        
+    
+<!-- MENU -->
+        
+        <nav>
+                        
                         <ul>
                             <li><a href="#">Nav</a></li>
                             <li><a href="#">Nav</a></li>
@@ -39,13 +36,37 @@
                             <li><a href="#">Nav</a></li>
                         </ul>
 
-                    </div>
                 </nav>
+        
+        <div id="menu_tab_in">
+            <a href="#" onclick="menuShow()">MENU</a>
+        </div>
+        
+        <div id="menu_tab_out">
+            <a href="#" onclick="menuHide()">MENU</a>
+        </div>
+        
+        
+<!-- MAIN VIEWPORT CONTENT -->
+        
+        <div id="container">
+        <div id="container_dim"></div>
+            
+            
+        
+<!-- HEADER -->
+
+
+        <header>
+
+                <div id="titlebar"><img src="images/bcit_logo.png" id="logo">
+                <p>bcit web development</p></div>
 
         </header>
 
 
 <!-- CONTENT -->
+
 
 <section id="overview">
     <div class="width_container">
@@ -81,8 +102,10 @@
     </div>
 </section>
 
-
+            
+            
 <!-- LESSONS -->
+            
 
 <!-- Topic 1 -->
 
@@ -304,6 +327,7 @@
     </div>
 </section>
 
+          
 <!-- HOMEWORK -->
 
 <section class="homework" id="hw_01">
@@ -343,7 +367,6 @@
 </section>
 
 
-</main>
 
 
 </div>
