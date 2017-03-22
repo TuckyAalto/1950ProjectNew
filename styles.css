@@ -1,8 +1,7 @@
-* {
-    border: 1px dashed lightgrey;
-    padding: 2px;
-    margin: 4px 0;
-}
+
+
+body {
+  background-color: #f4f4f4;
 
 #wrapper_hide {
     display: flex;
@@ -45,6 +44,13 @@
     width: calc(25% - 16px);
 }
 
+.quarter_wide_topic {
+  width: calc(25% - 16px);
+  color: white;
+  padding: 5px;
+  background-color: #152D65;
+}
+
 .half_wide {
     width: calc(50% - 8px);
 }
@@ -53,26 +59,44 @@
     width: 75%;
 }
 
+.threequarter_wide_topic {
+  width: 75%;
+  background-color: #152D65;
+  color: white;
+  padding: 5px;
+}
+
 
 
 /* HEADER */
 
 header {
-    border: 2px dashed blue;
     margin-bottom: 32px;
 }
 
 h1 {
-    color: #0AA9C2;
+    color: white;
+    padding: 5px;
+
 }
 
 #titlebar {
     background-color: #152D65;
+    display: flex;
 }
+
+#titlebar p {
+  font-size: 20px;
+  color: white;
+  margin-top: 59px;
+  margin-left: 5px;
+}
+
 
 #logo {
     height: 80px;
     width: auto;
+    margin-left: 5px;
 }
 
 
@@ -122,21 +146,27 @@ nav li {
 }
 
 nav a {
-    
+
 }
 
 
 
 /* AGENDA */
 
+.width_container h1 {
+  background-color: #152D65;
+}
+
 #agenda {
-    border: 2px dashed magenta;
+    background-color: #f4f4f4;
 }
 
 #agenda a {
     display: block;
-    background-color: navy;
+    background-color: #152D65;
     color: white;
+    height: 25px;
+    padding: 5px;
 }
 
 #topic_nav {
@@ -150,13 +180,17 @@ nav a {
     text-align: center;
 }
 
-
+.topic_summary {
+  border: 2px solid black;
+  height: 100px;
+  margin-top: -5px;
+}
 
 /* SECTIONS */
 
 section {
     background-color: white;
-    border: 2px dashed green;
+    border: 2px dashed grey;
     margin-bottom: 32px;
 }
 
@@ -170,7 +204,7 @@ section[id^="topic"] h4 {
 }
 
 .lesson {
-    border: 2px dashed magenta;;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: space-between;
 }
@@ -180,12 +214,14 @@ section[id^="topic"] h4 {
     list-style-position: inside
 }
 
-
+.threequarter_wide h2 {
+  background-color: #152D65;
+}
 
 /* HOMEWORK */
 
 #hw_details {
-    border: 2px dashed magenta;
+    background-color: #f4f4f4;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -198,4 +234,39 @@ section[id^="topic"] h4 {
 #hw_criteria {
     list-style: disc;
     list-style-position: inside;
+}
+
+.width_container h2 {
+  background-color: #152D65;
+  color: white;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+}
+
+.homework_section h3 {
+  margin-top: 85px;
+}
+
+/*Course Outline CSS */
+
+#outline_nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#outline_nav li {
+    height: 220px;
+    text-align: center;
+}
+
+.outline_summary {
+  border: 2px solid black;
+  height: 200px;
+  margin-top: -5px;
+}
+
+.outline_list {
+  list-style-type: disc;
+  margin-left: 20px;
 }

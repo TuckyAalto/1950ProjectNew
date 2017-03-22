@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    
+
     <title>project wireframe</title>
-    
+
     <link rel="stylesheet" type="text/css" href="reset.css" title="default styles">
-    
+
     <link rel="stylesheet" type="text/css" href="styles.css" title="default styles">
-    
+
     <!--[if lt IE 9]>
 	   <script src="../html5shiv.js"></script>
     <![endif]-->
-    
+
     <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     
     <script src="scripts.js"></script>
@@ -35,8 +35,8 @@
                             <li><a href="#">Nav</a></li>
                             <li><a href="#">Nav</a></li>
                         </ul>
-                        
-        </nav>
+
+                </nav>
         
         <div id="menu_tab_in">
             <a href="#" onclick="menuShow()">MENU</a>
@@ -55,158 +55,321 @@
             
         
 <!-- HEADER -->
-        
-        
+
+
         <header>
-        
-                <div id="titlebar"><img src="images/bcit_logo.png" id="logo"></div>
 
-                
-            
+                <div id="titlebar"><img src="images/bcit_logo.png" id="logo">
+                <p>bcit web development</p></div>
+
         </header>
-        
-    
+
+
 <!-- CONTENT -->
-        
-        <main>
-            
-        
-<!-- AGENDA -->
-            
-            <section id="overview">
-                <div class="width_container">
-                
-                    <h1>Session 01: Name</h1>
 
-                        <div id="agenda">
-                            <h2>Agenda</h2>
 
-                                <ul>
-                                    <li>Quiz</li>
-                                    <li>Other thing</li>
-                                    <li>
-                                        <ul id="topic_nav">
-                                            <li class="quarter_wide"><a href="#">Topic One</a>
-                                                <div class="topic_summary"></div>
-                                            </li>
-                                            <li class="quarter_wide"><a href="#">Topic Two</a>
-                                                <div class="topic_summary"></div>
-                                            </li>
-                                            <li class="quarter_wide"><a href="#">Topic Three</a>
-                                                <div class="topic_summary"></div>
-                                            </li>
-                                            <li class="quarter_wide"><a href="#">Topic Four</a>
-                                                <div class="topic_summary"></div>
-                                            </li>
-                                            
-                                        </ul>
-                                    </li>
-                                </ul>
-                        </div>
-                    
-                </div>
-            </section>
+<section id="overview">
+    <div class="width_container">
+
+        <h1>Session 01: Name</h1>
+          <h2>Agenda</h2>
+            <div id="agenda">
+
+
+                    <ul>
+                        <li>Quiz</li>
+                        <li>Other thing</li>
+                        <li>
+                            <ul id="topic_nav">
+                                <li class="quarter_wide"><a href="#">Topic One</a>
+                                    <div class="topic_summary"></div>
+                                </li>
+                                <li class="quarter_wide"><a href="#">Topic Two</a>
+                                    <div class="topic_summary"></div>
+                                </li>
+                                <li class="quarter_wide"><a href="#">Topic Three</a>
+                                    <div class="topic_summary"></div>
+                                </li>
+                                <li class="quarter_wide"><a href="#">Topic Four</a>
+                                    <div class="topic_summary"></div>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+
+    </div>
+</section>
+
             
             
 <!-- LESSONS -->
             
-            <section id="topic_01">
-                <div class="width_container">
-            
-                    <div>
-                        <h2 class="threequarter_wide">Topic Name</h2>
-                        <h4 class="quarter_wide">></h4>
-                    </div>
 
-                        <ul id="topic_details">
-                            
-                            <div class="lesson">
-                                <li class="lesson_details half_wide">
-                                    <h3>Lesson Name</h3>
-                                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                </li>
+<!-- Topic 1 -->
 
-                                            <li class="ex_and_res half_wide">
-                                                <ul>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                </ul>
-                                            </li>
-                            </div>
+<section id="topic_01">
+    <div class="width_container">
 
-
-                            <div class="lesson">
-                                <li class="lesson_details half_wide">
-                                    <h3>Lesson Name</h3>
-                                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                </li>
-
-                                            <li class="ex_and_res half_wide">
-                                                <ul>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    <li>Resource</li>
-                                                    
-                                                </ul>
-                                            </li>
-                            </div>
-                        </ul>
-                    
-                </div>
-            </section>
-            
-
-<!-- HOMEWORK -->
-            
-            <section class="homework" id="hw_01">
-                <div class="width_container">
-                
-                    <h2>Homework <span class="session_number">S01</span></h2>
-                    
-                        <h3>Overview</h3>
-                    
-                            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-
-                            <ul id="hw_details">
-                                <li class="threequarter_wide">
-
-                                    <h4>Criteria</h4>
-                                        <ul id="hw_criteria">
-                                            <li>Criteria example</li>
-                                            <li>Criteria example</li>
-                                            <li>Criteria example</li>
-                                            <li>Criteria example</li>
-                                            <li>Criteria example</li>
-                                        </ul>
-
-                                </li>
-
-                                <li class="quarter_wide">
-
-                                    <h3>Due Date</h3>
-                                    <h4>_/10</h4>
-                                    <a href="#">Download the PDF</a>
-
-                                </li>
-                            </ul>
-                    
-                </div>
-            </section>
-    
-        
-        </main>
+        <div>
+            <h2 class="threequarter_wide_topic">Topic Name</h2>
+            <h4 class="quarter_wide_topic">></h4>
         </div>
-        
+
+            <ul id="topic_details">
+
+                <div class="lesson">
+                    <li class="lesson_details half_wide">
+                        <h3>Lesson Name</h3>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </li>
+
+                                <li class="ex_and_res half_wide">
+                                    <ul>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                    </ul>
+                                </li>
+                </div>
+
+
+                <div class="lesson">
+                    <li class="lesson_details half_wide">
+                        <h3>Lesson Name</h3>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </li>
+
+                                <li class="ex_and_res half_wide">
+                                    <ul>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+
+                                    </ul>
+                                </li>
+                </div>
+            </ul>
+
     </div>
+</section>
+
+<!-- Topic 2 -->
+
+<section id="topic_02">
+    <div class="width_container">
+
+        <div>
+            <h2 class="threequarter_wide_topic">Topic Name</h2>
+            <h4 class="quarter_wide_topic">></h4>
+        </div>
+
+            <ul id="topic_details">
+
+                <div class="lesson">
+                    <li class="lesson_details half_wide">
+                        <h3>Lesson Name</h3>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </li>
+
+                                <li class="ex_and_res half_wide">
+                                    <ul>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                    </ul>
+                                </li>
+                </div>
+
+
+                <div class="lesson">
+                    <li class="lesson_details half_wide">
+                        <h3>Lesson Name</h3>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </li>
+
+                                <li class="ex_and_res half_wide">
+                                    <ul>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+
+                                    </ul>
+                                </li>
+                </div>
+            </ul>
+
+    </div>
+</section>
+
+<!-- Topic 3 -->
+
+<section id="topic_03">
+    <div class="width_container">
+
+        <div>
+            <h2 class="threequarter_wide_topic">Topic Name</h2>
+            <h4 class="quarter_wide_topic">></h4>
+        </div>
+
+            <ul id="topic_details">
+
+                <div class="lesson">
+                    <li class="lesson_details half_wide">
+                        <h3>Lesson Name</h3>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </li>
+
+                                <li class="ex_and_res half_wide">
+                                    <ul>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                    </ul>
+                                </li>
+                </div>
+
+
+                <div class="lesson">
+                    <li class="lesson_details half_wide">
+                        <h3>Lesson Name</h3>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </li>
+
+                                <li class="ex_and_res half_wide">
+                                    <ul>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+
+                                    </ul>
+                                </li>
+                </div>
+            </ul>
+
+    </div>
+</section>
+
+<!-- Topic 4 -->
+
+<section id="topic_04">
+    <div class="width_container">
+
+        <div>
+            <h2 class="threequarter_wide_topic">Topic Name</h2>
+            <h4 class="quarter_wide_topic">></h4>
+        </div>
+
+            <ul id="topic_details">
+
+                <div class="lesson">
+                    <li class="lesson_details half_wide">
+                        <h3>Lesson Name</h3>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </li>
+
+                                <li class="ex_and_res half_wide">
+                                    <ul>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                    </ul>
+                                </li>
+                </div>
+
+
+                <div class="lesson">
+                    <li class="lesson_details half_wide">
+                        <h3>Lesson Name</h3>
+                        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    </li>
+
+                                <li class="ex_and_res half_wide">
+                                    <ul>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+                                        <li>Resource</li>
+
+                                    </ul>
+                                </li>
+                </div>
+            </ul>
+
+    </div>
+</section>
+
+          
+<!-- HOMEWORK -->
+
+<section class="homework" id="hw_01">
+    <div class="width_container">
+
+        <h2>Homework <span class="session_number">S01</span></h2>
+
+            <h3>Overview</h3>
+
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+
+                <ul id="hw_details">
+                    <li class="threequarter_wide">
+
+                        <h4>Criteria</h4>
+                            <ul id="hw_criteria">
+                                <li>Criteria example</li>
+                                <li>Criteria example</li>
+                                <li>Criteria example</li>
+                                <li>Criteria example</li>
+                                <li>Criteria example</li>
+                            </ul>
+
+                    </li>
+
+                    <li class="quarter_wide">
+                      <div class="homework_section">
+                        <h3>Due Date: March 10th</h3>
+                        <h4>_/10</h4>
+                        <a href="#">Download the PDF</a>
+                      </div>
+                    </li>
+                </ul>
+
+    </div>
+</section>
+
+
+
+
+</div>
 
 </body>
 </html>
