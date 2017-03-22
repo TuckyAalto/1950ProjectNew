@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: #f4f4f4;
+
 }
 
 #wrapper_hide {
@@ -25,7 +25,7 @@ body {
 }
 
 #container_dim {
-    background-color: black;
+    background-color: #152D65;
     opacity: 0;
     position: fixed;
     top: 0;
@@ -48,7 +48,9 @@ body {
 .quarter_wide_topic {
   width: calc(25% - 16px);
   color: white;
-  padding: 5px;
+  height: 37px;
+  padding: 10px;
+  margin-top: 5px;
   background-color: #152D65;
 }
 
@@ -84,6 +86,8 @@ h1 {
 #titlebar {
     background-color: #152D65;
     display: flex;
+    padding: 10px 5px 5px 50px;
+    height: 100px;
 }
 
 #titlebar p {
@@ -106,7 +110,7 @@ h1 {
 nav {
     width: 240px;
     height: 100vw;
-    background-color: red;
+    background-color: white;
     position: fixed;
     z-index: 2;
     top: 0vw;
@@ -119,11 +123,16 @@ nav {
     z-index: 2;
     top: calc(0vw + 25px);
     margin-left: 215px;
-    background-color: red;
+    background-color: #152D65;
     width: 100px;
     height: 50px;
     transform: rotate(-90deg);
     display: block;
+}
+
+#menu_tab_in a {
+  color: white;
+  padding: 25px;
 }
 
 #menu_tab_out {
@@ -131,11 +140,16 @@ nav {
     z-index: 2;
     top: calc(0vw + 25px);
     margin-left: 215px;
-    background-color: red;
+    background-color: #152D65;
     width: 100px;
     height: 50px;
     transform: rotate(-90deg);
     display: none;
+}
+
+#menu_tab_out a {
+  color: white;
+  padding: 25px;
 }
 
 nav ul {
@@ -143,11 +157,11 @@ nav ul {
 }
 
 nav li {
-
+  color: #152D65;
 }
 
 nav a {
-
+  color: #152D65;
 }
 
 
@@ -159,7 +173,6 @@ nav a {
 }
 
 #agenda {
-    background-color: #f4f4f4;
     height: 180px;
 }
 
@@ -196,7 +209,8 @@ nav a {
 section {
     background-color: white;
     border: 2px dashed grey;
-    margin-bottom: 32px;
+    width: 100%;
+    margin: 0 0 32px 0;
 }
 
 section[id^="topic"] > div > div:first-of-type {
@@ -212,6 +226,8 @@ section[id^="topic"] h4 {
     background-color: #f4f4f4;
     display: flex;
     justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 .ex_and_res ul {
@@ -230,6 +246,8 @@ section[id^="topic"] h4 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 #hw_details > li:nth-of-type(2) {
@@ -248,8 +266,18 @@ section[id^="topic"] h4 {
   margin: 5px 0 5px 0;
 }
 
+.width_container h3 {
+  background-color: #f4f4f4;
+  padding: 5px;
+}
+
+.width_container p {
+  background-color: #f4f4f4;
+  padding: 5px;
+}
+
 .homework_section h3 {
-  margin-top: 85px;
+  margin-top: 45px;
 }
 
 /*Course Outline CSS */
@@ -261,17 +289,42 @@ section[id^="topic"] h4 {
 }
 
 #outline_nav li {
-    height: 220px;
-    text-align: center;
 }
 
 .outline_summary {
   border: 2px solid black;
   height: 200px;
-  margin-top: -5px;
 }
 
 .outline_list {
   list-style-type: disc;
-  margin-left: 20px;
+  padding-left: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Course Overview Page */
+
+#overview {
+
+}
+
+#course_overview {
+  height: 350px;
+  padding-bottom: 10px;
+}
+
+#course_overview ul {
+  background-color: #f4f4f4;
+}
+
+#weekly_content {
+  background-color: #f4f4f4;
+}
+
+#weekly_content a {
+  display: block;
+  background-color: #152D65;
+  color: white;
+  height: 25px;
+  padding: 5px;
 }
