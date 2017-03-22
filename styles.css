@@ -1,0 +1,128 @@
+* {
+    border: 1px dashed lightgrey;
+    padding: 2px;
+    margin: 4px 0;
+}
+
+/* SIZING */
+
+.width_container {
+    width: 80%;
+    margin: auto;
+}
+
+.quarter_wide {
+    width: calc(25% - 16px);
+}
+
+.half_wide {
+    width: calc(50% - 8px);
+}
+
+.threequarter_wide {
+    width: 75%;
+}
+
+
+
+/* HEADER */
+
+header {
+    border: 2px dashed blue;
+    margin-bottom: 32px;
+}
+
+#titlebar {
+    background-color: #152D65;
+}
+
+#logo {
+    height: 80px;
+    width: auto;
+}
+
+nav {
+    
+}
+
+nav ul {
+    border: 2px dashed orange;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav li {
+
+}
+
+nav a {
+    
+}
+
+
+
+/* AGENDA */
+
+#agenda {
+    border: 2px dashed magenta;
+}
+
+#topic_nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#topic_nav li {
+    height: 120px;
+    text-align: center;
+}
+
+
+
+/* SECTIONS */
+
+section {
+    border: 2px dashed green;
+    margin-bottom: 32px;
+}
+
+section[id^="topic"] > div > div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+section[id^="topic"] h4 {
+    text-align: right;
+}
+
+.lesson {
+    border: 2px dashed magenta;;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ex_and_res ul {
+    list-style: disc;
+    list-style-position: inside
+}
+
+
+
+/* HOMEWORK */
+
+#hw_details {
+    border: 2px dashed magenta;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#hw_details > li:nth-of-type(2) {
+    text-align: right;
+}
+
+#hw_criteria {
+    list-style: disc;
+    list-style-position: inside;
+}
