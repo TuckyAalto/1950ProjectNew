@@ -10,25 +10,72 @@
 	   <script src="../html5shiv.js"></script>
     <![endif]-->
     <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      
+      <script src="scripts.js"></script>
+      
   </head>
   <body>
-    <div id="container">
+    
+    
+    <div id="wrapper_hide">
+        
+    
+<!-- MENU -->
+        
+                <nav>
+                        
+                        <ul>
+                            <li><a href="#">Nav</a></li>
+                            <li><a href="#">Nav</a></li>
+                            <li><a href="#">Nav</a></li>
+                            <li><a href="#">Nav</a></li>
+                        </ul>
+
+                </nav>
+        
+        <div id="menu_tab_in">
+            <a href="#" onclick="menuShow()">MENU</a>
+        </div>
+        
+        <div id="menu_tab_out">
+            <a href="#" onclick="menuHide()">MENU</a>
+        </div>
+        
+        
+<!-- MAIN VIEWPORT CONTENT -->
+        
+        <div id="container">
+        <div id="container_dim"></div>
+            
+            
+        
+<!-- HEADER -->
+        
+        
       <header>
         <div id="titlebar"><img src="images/bcit_logo.png" id="logo">
         <p>bcit web development</p></div>
       </header>
+        
+        
       <section id="overview">
+          
         <div class="width_container">
+            
           <h1>Course Outline</h1>
+            
             <div id="agenda">
+                
               <p><strong>COMP 1950</strong> follows on from COMP 1850 in more depth and introduces new topics and techniques for developing effective web sites. Students will gain a
                 deeper understanding of HTML and CSS. Topics will include: Current and emerging trends in HTML, detailed use of CSS for layout and presentation, an
                 introduction to JavaScript frameworks such as jQuery, how to leverage Server Side Includes (SSI) for re-usable code, and working with Content Management Systems.<br><br>
                 <strong>Course Goals</strong></p>
-                <ul class="outline_list">
+                
+                <ul class="outline_list">       
                   <li>To gain a deeper understanding of HTML, CSS and advanced topics in web development.</li>
                   <li>To focus on best practices in web page and web site design.</li>
                 </ul>
+                
               <p><strong>Course learning outcomes / competencies</strong><br><br>
                 Upon successful completion of this course, the student will be able to:</p>
                 <ul class="outline_list">
@@ -41,7 +88,9 @@
                   <li>Understand basic development methodology.</li>
                 </ul>
             </div>
+            
           <h2>Weekly Agenda:</h2>
+            
           <div id="agenda">
           <ul id="outline_nav">
               <li class="quarter_wide"><a href="#">Week One</a>
@@ -98,6 +147,7 @@
           </div>
         </div>
       </section>
+    </div>
     </div>
   </body>
 </html>
