@@ -17,6 +17,20 @@
     <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     <script src="scripts.js"></script>
+    
+    <script>
+       $(document).ready(function(){
+           $(window).bind('scroll', function() {
+           var overviewHeight = $( window ).height() - 712;
+                 if ($(window).scrollTop() > overviewHeight) {
+                     $('#overview').addClass('fixed');
+                 }
+                 else {
+                     $('#overview').removeClass('fixed');
+                 }
+            });
+        });
+    </script>
 
 </head>
 <body>
