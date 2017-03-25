@@ -1,7 +1,7 @@
 
 
 body {
-
+  background-color: white;
 }
 
 #wrapper_hide {
@@ -182,6 +182,7 @@ nav a {
 
 .width_container h1 {
   background-color: #152D65;
+  margin-bottom: 10px;
 }
 
 #agenda {
@@ -299,6 +300,7 @@ section[id^="topic"] h4 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 #outline_nav li {
@@ -306,7 +308,10 @@ section[id^="topic"] h4 {
 
 .outline_summary {
   border: 2px solid black;
+  font-size: 20px;
   height: 200px;
+  padding-left: 25px;
+  padding-top: 5px;
 }
 
 .outline_list {
@@ -322,19 +327,23 @@ section[id^="topic"] h4 {
     height: 280px;
 }
 
+#outline_overview {
+  height: 385px;
+}
+
 .fixed {
-	position: fixed; 
+	position: fixed;
     top: 70px;
 	z-index: 1;
 }
 
 #course_overview {
   height: 350px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #course_overview ul {
-  background-color: #f4f4f4;
+  background-color:
 }
 
 #weekly_content {
@@ -347,4 +356,5 @@ section[id^="topic"] h4 {
   color: white;
   height: 25px;
   padding: 5px;
+  margin-top: 10px;
 }
