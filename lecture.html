@@ -14,23 +14,12 @@
 	   <script src="../html5shiv.js"></script>
     <![endif]-->
 
+    <!-- var overviewHeight = $( window ).height() - 712; -->
+    
     <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-    <script src="scripts.js"></script>
-    
-    <script>
-       $(document).ready(function(){
-           $(window).bind('scroll', function() {
-           var overviewHeight = $( window ).height() - 712;
-                 if ($(window).scrollTop() > overviewHeight) {
-                     $('#overview').addClass('fixed');
-                 }
-                 else {
-                     $('#overview').removeClass('fixed');
-                 }
-            });
-        });
-    </script>
+    <script src="menu.js"></script>
+    <script src="lecture_nav.js"></script>
 
 </head>
 <body>
@@ -44,10 +33,33 @@
         <nav>
 
                         <ul>
-                            <li><a href="#">Nav</a></li>
-                            <li><a href="#">Nav</a></li>
-                            <li><a href="#">Nav</a></li>
-                            <li><a href="#">Nav</a></li>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">LECTURES</a></li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">01 | Tools &amp;Standards</a></li>
+                                    <li><a href="#">02 | HTML5</a></li>
+                                    <li><a href="#">03 | CSS3 Techniques</a></li>
+                                    <li><a href="#">04 | CSS Layouts</a></li>
+                                    <li><a href="#">05 | Responsive CSS</a></li>
+                                    <li><a href="#">06 | CSS3</a></li>
+                                    <li><a href="#">07 | Javascript Frameworks</a></li>
+                                    <li><a href="#">08 | Dynamic Content</a></li>
+                                    <li><a href="#">09 | Templating/SEO</a></li>
+                                    <li><a href="#">10 | Methodology</a></li>
+                                    <li><a href="#">11 | Project Work</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">HOMEWORK</a></li>
+                            <li><a href="#">RESOURCES</a></li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">Tools &amp; Readings</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">My BCIT</a></li>
+                                    <li><a href="#">D2L</a></li>
+                                </ul>
+                            </li>
                         </ul>
 
                 </nav>
@@ -86,25 +98,25 @@
     <div class="width_container">
 
         <h1>Session 01: Name</h1>
-          <h2>Agenda</h2>
+          <h2 class="overview_toggle">Agenda</h2>
             <div id="agenda">
 
 
                     <ul>
-                        <li>Quiz</li>
-                        <li>Other thing</li>
+                        <li class="overview_toggle">Quiz</li>
+                        <li class="overview_toggle">Other thing</li>
                         <li>
                             <ul id="topic_nav">
-                                <li class="quarter_wide"><a href="#">Topic One</a>
+                                <li class="quarter_wide"><a href="#topic_01">Topic One</a>
                                     <div class="topic_summary"></div>
                                 </li>
-                                <li class="quarter_wide"><a href="#">Topic Two</a>
+                                <li class="quarter_wide"><a href="#topic_02">Topic Two</a>
                                     <div class="topic_summary"></div>
                                 </li>
-                                <li class="quarter_wide"><a href="#">Topic Three</a>
+                                <li class="quarter_wide"><a href="#topic_03">Topic Three</a>
                                     <div class="topic_summary"></div>
                                 </li>
-                                <li class="quarter_wide"><a href="#">Topic Four</a>
+                                <li class="quarter_wide"><a href="#topic_04">Topic Four</a>
                                     <div class="topic_summary"></div>
                                 </li>
 
