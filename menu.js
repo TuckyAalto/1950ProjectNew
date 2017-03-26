@@ -4,6 +4,8 @@ function menuShow() {
     
     document.getElementById("wrapper_hide").id = "wrapper_show";
     
+    document.getElementById("container_dim").style.visibility = 'visible';
+    
     document.getElementById("container_dim").style.opacity = 0.8;
     
     document.getElementById("menu_tab_in").style.display = 'none';
@@ -17,6 +19,8 @@ function menuHide() {
     document.getElementById("wrapper_show").id = "wrapper_hide";
     
     document.getElementById("container_dim").style.opacity = 0;
+    
+    document.getElementById("container_dim").style.visibility = 'hidden';
     
     document.getElementById("menu_tab_out").style.display = 'none';
     
