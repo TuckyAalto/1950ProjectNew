@@ -27,13 +27,14 @@ body {
 
 #container_dim {
     background-color: #152D65;
+    visibility: hidden;
     opacity: 0;
     position: fixed;
     z-index: 2;
     top: 0;
     width: 100%;
     height: 100vw;
-    transition: opacity 0.5s ease-out;
+    transition: visibility 0s, opacity 0.5s ease-out;
 }
 
 /* SIZING */
@@ -75,6 +76,7 @@ body {
 /* HEADER */
 
 header {
+    background-color: #152D65;
     width: 100%;
     position: fixed;
     top: 0;
@@ -82,31 +84,35 @@ header {
 }
 
 h1 {
+    background-color: #152D65;
     color: white;
-    padding: 5px;
+    padding: 10px 5px;
     margin: 5px 0;
-
+    text-transform: uppercase;
+    font-size: 1.75em;
 }
 
 #titlebar {
-    background-color: #152D65;
+    
     display: flex;
-    padding: 10px 5px 5px 50px;
+    padding: 10px 0;
     height: 100px;
 }
 
 #titlebar p {
+    background-color: transparent;
   font-size: 20px;
   color: white;
-  margin-top: 59px;
+  margin-top: 55px;
   margin-left: 5px;
+    letter-spacing: 0.05em;
 }
 
 
 #logo {
     height: 80px;
     width: auto;
-    margin-left: 5px;
+
 }
 
 
@@ -129,7 +135,7 @@ nav {
     z-index: 3;
     top: calc(0vw + 25px);
     margin-left: 214px;
-    padding-top: 16px;
+    padding-top: 15px;
     background-color: white;
     width: 100px;
     height: 50px;
@@ -140,16 +146,12 @@ nav {
     border-left: 1px solid grey;
 }
 
-#menu_tab_in a {
-  color: #152D65;
-}
-
 #menu_tab_out {
     position: fixed;
     z-index: 3;
     top: calc(0vw + 25px);
     margin-left: 214px;
-    padding-top: 16px;
+    padding-top: 15px;
     background-color: white;
     width: 100px;
     height: 50px;
@@ -160,9 +162,25 @@ nav {
     border-left: 1px solid grey;
 }
 
-#menu_tab_out a {
+#menu_tab_in a, #menu_tab_out a {
   color: #152D65;
-  padding: 25px;
+}
+
+#menu_tab_in a:hover, #menu_tab_out a:hover {
+  color: #099AB1;
+}
+
+#menu_icon {
+    background-image: url(images/menu_icon.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 0 -4px 5px;
+}
+
+#menu_tab_in a:hover #menu_icon, #menu_tab_out a:hover #menu_icon {
+  background-position: 0 20px;
 }
 
 nav ul {
@@ -171,6 +189,8 @@ nav ul {
 
 nav li {
   color: #152D65;
+    letter-spacing: 0.05em;
+    line-height: 1.8em;
 }
 
 nav a {
@@ -201,21 +221,23 @@ nav ul li ul li a:hover {
 
 /* AGENDA */
 
-.width_container h1 {
-  background-color: #152D65;
-  margin-bottom: 10px;
-}
-
 #agenda {
-
+    
 }
 
 #agenda a {
     display: block;
+    background-color: #099AB1;
+    border: 2px solid #152D65;
+    color: #152D65;
+    letter-spacing: 0.08em;
+    height: 32px;
+    padding: 8px 8px 25px 8px;
+}
+
+#agenda a:hover {
     background-color: #152D65;
     color: white;
-    height: 32px;
-    padding: 8px;
 }
 
 #agenda ul {
@@ -235,8 +257,35 @@ nav ul li ul li a:hover {
 .topic_summary {
     opacity: 1;
   border: 2px solid #152D65;
-  height: 100px;
+    border-top: none;
     transition: height 0.1s linear;
+    padding-left: calc(50% - 55px);
+    overflow: hidden;
+}
+
+.topic_icon {
+    background-image: url(images/topic_icons.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: 45px 0;
+}
+
+#html_icon {
+    background-position: 0 0;
+}
+
+#xhtml_icon {
+    background-position: -100px 0;
+}
+
+#html5_icon {
+    background-position: -200px 0;
+}
+
+#css_icon {
+    background-position: -300px 0;
 }
 
 .topic_summary_min {
@@ -244,6 +293,13 @@ nav ul li ul li a:hover {
     border: 2px solid #152D65;
   height: 0px;
     transition: height 0.3s linear;
+}
+
+.jump_offset {
+    visibility: hidden;
+    display: block;
+    height:260px; /* fixed header height*/
+    margin-top:-260px; /* negative fixed header height */
 }
 
 /* SECTIONS */

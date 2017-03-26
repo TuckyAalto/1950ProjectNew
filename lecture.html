@@ -14,8 +14,6 @@
 	   <script src="../html5shiv.js"></script>
     <![endif]-->
 
-    <!-- var overviewHeight = $( window ).height() - 712; -->
-
     <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     <script src="menu.js"></script>
@@ -33,8 +31,8 @@
         <nav>
 
                         <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">LECTURES</a></li>
+                            <li><a href="home_page.html">HOME</a></li>
+                            <li>LECTURES</li>
                             <li>
                                 <ul>
                                     <li><a href="#">01 | Tools &amp;Standards</a></li>
@@ -51,13 +49,13 @@
                                 </ul>
                             </li>
                             <li><a href="#">HOMEWORK</a></li>
-                            <li><a href="#">RESOURCES</a></li>
+                            <li>RESOURCES</li>
                             <li>
                                 <ul>
-                                    <li><a href="#">Tools &amp; Readings</a></li>
+                                    <li><a href="#">Resources &amp; Readings</a></li>
                                     <li><a href="#">Contact</a></li>
-                                    <li><a href="#">My BCIT</a></li>
-                                    <li><a href="#">D2L</a></li>
+                                    <li><a href="http://my.bcit.com">My BCIT</a></li>
+                                    <li><a href="http://learn.bcit.ca">D2L</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -65,18 +63,20 @@
                 </nav>
 
         <div id="menu_tab_in">
-            <a href="#" onclick="menuShow()">MENU</a>
+            <a href="#" onclick="menuShow()">MENU
+            <div id="menu_icon"></div></a>
         </div>
 
         <div id="menu_tab_out">
-            <a href="#" onclick="menuHide()">MENU</a>
+            <a href="#" onclick="menuHide()">MENU
+            <div id="menu_icon"></div></a>
         </div>
 
 
 <!-- MAIN VIEWPORT CONTENT -->
 
         <div id="container">
-        <div id="container_dim"></div>
+        <div id="container_dim" onclick="menuHide()"></div>
 
 
 
@@ -84,10 +84,10 @@
 
 
         <header>
-
+            <div class="width_container">
                 <div id="titlebar"><img src="images/bcit_logo.png" id="logo">
                 <p>bcit web development</p></div>
-
+            </div>
         </header>
 
 
@@ -97,27 +97,35 @@
 <section id="overview">
     <div class="width_container">
 
-        <h1>Session 02: HTML5</h1>
-          <h2>Agenda</h2>
+        <h1>Session 02 | HTML5</h1>
+          <h2 class="overview_toggle">Agenda</h2>
             <div id="agenda">
 
 
                     <ul>
-                        <li>Quiz #1 - written, closed book.</li>
-                        <li>Tonight we will be discussing HTML5 and the different semantic elements.</li>
+                        <li class="overview_toggle">Quiz #1 - written, closed book.</li>
+                        
                         <li>
                             <ul id="topic_nav">
-                                <li class="quarter_wide"><a href="#">Topic One</a>
-                                    <div class="topic_summary"></div>
+                                <li class="quarter_wide"><a href="#jump01">HTML</a>
+                                    <div class="topic_summary">
+                                        <div class="topic_icon" id="html_icon"></div>
+                                    </div>
                                 </li>
-                                <li class="quarter_wide"><a href="#">Topic Two</a>
-                                    <div class="topic_summary"></div>
+                                <li class="quarter_wide"><a href="#jump02">XHTML</a>
+                                    <div class="topic_summary">
+                                        <div class="topic_icon" id="xhtml_icon"></div>
+                                    </div>
                                 </li>
-                                <li class="quarter_wide"><a href="#">Topic Three</a>
-                                    <div class="topic_summary"></div>
+                                <li class="quarter_wide"><a href="#jump03">HTML5</a>
+                                    <div class="topic_summary">
+                                        <div class="topic_icon" id="html5_icon"></div>
+                                    </div>
                                 </li>
-                                <li class="quarter_wide"><a href="#">Topic Four</a>
-                                    <div class="topic_summary"></div>
+                                <li class="quarter_wide"><a href="#jump04">CSS Review</a>
+                                    <div class="topic_summary">
+                                        <div class="topic_icon" id="css_icon"></div>
+                                    </div>
                                 </li>
 
                             </ul>
@@ -135,6 +143,7 @@
 
 <!-- Topic 1 -->
 
+<div id="jump01" class="jump_offset"></div>
 <section id="topic_01">
     <div class="width_container">
 
@@ -186,6 +195,7 @@
 
 <!-- Topic 2 -->
 
+<div id="jump02" class="jump_offset"></div>
 <section id="topic_02">
     <div class="width_container">
 
@@ -243,6 +253,7 @@
 
 <!-- Topic 3 -->
 
+<div id="jump03" class="jump_offset"></div>
 <section id="topic_03">
     <div class="width_container">
 
@@ -279,7 +290,7 @@
                     <li class="lesson_details half_wide">
                         <h3>Is it time to start using HTML5?</h3>
                         <p>Simply answer is yes, and no. Try the <a href="#">HTML5Test.</a> Compare all the web browsers to get a better idea of what elements are supported on which browser. One of the great things about HTML5 is the ability to use
-                        tags from previous HTML interations, tags are therefore interpreted and rendered correctly. What happens when you use an unknown element... say: < finnegan >My Dog< finnegan >. If the browser is Firefox, Chrome, Safari, Opera: inline style.
+                        tags from previous HTML interations, tags are therefore interpreted and rendered correctly. What happens when you use an unknown element... say: My Dog. If the browser is Firefox, Chrome, Safari, Opera: inline style.
                         If the browser is IE: no style at all, all child elements are treated as siblings instead. One browser which might make working with HTML5 difficult is IE, however there are a few work arounds. The biggest one being a string of
                         code called a shiv, which is inserted into the head section. The shiv works for browsers that are IE 8 or less, which will allow you to use HTML5 elements even though they may not be supported in that browser.</p>
                     </li>
@@ -300,6 +311,7 @@
 
 <!-- Topic 4 -->
 
+<div id="jump04" class="jump_offset"></div>
 <section id="topic_04">
     <div class="width_container">
 
