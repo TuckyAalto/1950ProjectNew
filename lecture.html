@@ -35,7 +35,7 @@
                             <li>LECTURES</li>
                             <li>
                                 <ul>
-                                    <li><a href="#">01 | Tools &amp;Standards</a></li>
+                                    <li><a href="#">01 | Tools &amp; Standards</a></li>
                                     <li><a href="#">02 | HTML5</a></li>
                                     <li><a href="#">03 | CSS3 Techniques</a></li>
                                     <li><a href="#">04 | CSS Layouts</a></li>
@@ -85,8 +85,16 @@
 
         <header>
             <div class="width_container">
-                <div id="titlebar"><img src="images/bcit_logo.png" id="logo">
-                <p>bcit web development</p></div>
+                    <div id="titlebar">
+                        <div>
+                            <img src="images/bcit_logo.png" id="logo">
+                            <p>bcit web development</p>
+                        </div>
+                        <div id="signin">
+                            <p><a href="#">Log In</a> | <a href="#">Log out</a></p>
+                            <img src="images/profile_icon.png" id="profile">
+                        </div>
+                    </div>
             </div>
         </header>
 
@@ -373,43 +381,82 @@
 <section class="homework" id="hw_01">
     <div class="width_container">
 
-        <h2>Homework <span class="session_number">S01</span></h2>
+        <h2>Homework <span class="session_number">S02</span></h2>
 
-            <h3>Overview</h3>
-
-                <p>Build an HTML5 page that describes two or more places you have lived or visited other
-                  than Vancouver BC (cities, countries, any locales of your choice). Include text and
-                  images to inform the user about each place. At minimum, use one image and several
-                  sentences to describe each place. You may use images that you find online, but the
-                  textual content should be authored by you. Describe what you liked or did not like
-                  about the place, and some useful or interesting information you know (eg: where your
-                  favorite restaurant is).</p>
+            
 
 
-                <ul id="hw_details">
+                <ul class="hw_details">
+                    
                     <li class="threequarter_wide">
+                        <h3>Overview</h3>
 
-                        <h3>Criteria</h3>
+                            <p>Build an HTML5 page that describes two or more places you have lived or visited other
+                              than Vancouver BC (cities, countries, any locales of your choice). Include text and
+                              images to inform the user about each place. At minimum, use one image and several
+                              sentences to describe each place. You may use images that you find online, but the
+                              textual content should be authored by you. Describe what you liked or did not like
+                              about the place, and some useful or interesting information you know (eg: where your
+                              favorite restaurant is).</p>
+                        
+                        <h3>Additional Criteria</h3>
                           <p>Using any resources available to you, investigate two new HTML5 elements or features
                             not demonstrated in class. Use these elements on the page. Include on this page the
                             following information about each of the two new HTML tags:<p>
-                            <ul id="hw_criteria">
+                        
+                            <ul class="hw_criteria">
                                 <li>Descriptions of the semantics/rules of use (eg: parent/child relationships)</li>
                                 <li>A list of relevant attributes and details about how to use each attribute</li>
                                 <li>Browser compatibility issues (if any) for this element across IE, Firefox, Chrome, Safari, and/or Opera.</li>
                                 <li>Any additional notes you deem relevent</li>
                             </ul>
+                        
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide" id="checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div id="checklist_details">
+                                
+                                <div id="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete">Description and images of 2 places</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete">Effectively utilised 2 new HTML5 element</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete">Write-up, describing HTML5 elements used</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete">Deployed HTML5 shiv</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete">Uploaded to server</p>
+                                    
+                                        <p><input type="checkbox" name="S02item06" value="Complete">Linked via your student homepage</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete">Link and text file submitted to dropbox</p>
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
 
                     </li>
-
-                    <li class="quarter_wide">
-                      <div class="homework_section">
-                        <h3>Due Date: March 10th</h3>
-                        <h4>/10</h4>
-                        <a href="#">Download the PDF</a>
-                      </div>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 10</h4>
+                        <h4>Due: March 10th</h4>
+                        <h4>STATUS: INCOMPLETE</h4>
+                        
                     </li>
+
                 </ul>
+        
+                
 
     </div>
 </section>
