@@ -30,7 +30,7 @@ body {
     visibility: hidden;
     opacity: 0;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     top: 0;
     width: 100%;
     height: 100vw;
@@ -93,13 +93,14 @@ h1 {
 }
 
 #titlebar {
-    
     display: flex;
+    justify-content: space-between;
     padding: 10px 0;
     height: 100px;
 }
 
 #titlebar p {
+    display: inline-block;
     background-color: transparent;
   font-size: 20px;
   color: white;
@@ -108,11 +109,31 @@ h1 {
     letter-spacing: 0.05em;
 }
 
-
 #logo {
     height: 80px;
     width: auto;
+}
 
+#signin {
+    text-align: right;
+}
+
+#signin p {
+    display: block;
+    margin-top: 0;
+    font-size: 0.8em;
+    padding: 0;
+    margin-bottom: 35px;
+    color: #099AB1;
+}
+
+#signin a {
+    color: #099AB1;
+}
+
+#profile {
+    height: 30px;
+    width: auto;
 }
 
 
@@ -132,7 +153,7 @@ nav {
 
 #menu_tab_in {
     position: fixed;
-    z-index: 3;
+    z-index: 4;
     top: calc(0vw + 25px);
     margin-left: 214px;
     padding-top: 15px;
@@ -148,7 +169,7 @@ nav {
 
 #menu_tab_out {
     position: fixed;
-    z-index: 3;
+    z-index: 4;
     top: calc(0vw + 25px);
     margin-left: 214px;
     padding-top: 15px;
@@ -255,8 +276,8 @@ nav ul li ul li a:hover {
 }
 
 .topic_summary {
-    opacity: 1;
-  border: 2px solid #152D65;
+    display: block;
+    border: 2px solid #152D65;
     border-top: none;
     transition: height 0.1s linear;
     padding-left: calc(50% - 55px);
@@ -289,9 +310,9 @@ nav ul li ul li a:hover {
 }
 
 .topic_summary_min {
-  opacity: 0;
+    display: none;
     border: 2px solid #152D65;
-  height: 0px;
+    height: 0px;
     transition: height 0.3s linear;
 }
 
@@ -340,7 +361,11 @@ section[id^="topic"] h4 {
 
 /* HOMEWORK */
 
-#hw_details {
+.session_number {
+    display: none;
+}
+
+.hw_details {
     background-color: #f4f4f4;
     display: flex;
     flex-flow: row wrap;
@@ -349,13 +374,41 @@ section[id^="topic"] h4 {
     margin-bottom: 5px;
 }
 
-#hw_details > li:nth-of-type(2) {
+.hw_details a {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #099AB1;
+    margin-left: 5px;
+}
+
+.hw_details a:hover {
+    color: #152D65
+}
+
+.hw_criteria {
+    list-style: disc;
+    list-style-position: outside;
+    margin: 0 0 40px 30px;
+    font-size: 0.8em;
+}
+
+.hw_criteria li {
+    margin-bottom: 10px;
+}
+
+.hw_summary {
+    display: flex;
+    justify-content: space-between;
+    background-color: #152D65;
+  color: white;
+    width: 100%;
+  padding: 5px;
+  margin: 30px 0 5px 0;
     text-align: right;
 }
 
-#hw_criteria {
-    list-style: disc;
-    list-style-position: inside;
+.homework h3:nth-of-type(2) {
+    margin-top: 20px;
 }
 
 .width_container h2 {
@@ -366,17 +419,69 @@ section[id^="topic"] h4 {
 }
 
 .width_container h3 {
-  background-color: #f4f4f4;
   padding: 5px;
 }
 
 .width_container p {
-  background-color: #f4f4f4;
   padding: 5px;
 }
 
-.homework_section h3 {
-  margin-top: 85px;
+
+/* checklist */
+
+#checklist h3 {
+    display: block;
+    background-color: #099AB1;
+    border: 2px solid #152D65;
+    color: #152D65;
+    letter-spacing: 0.08em;
+    height: 32px;
+    padding: 8px 8px 25px 8px;
+}
+
+#checklist_details {
+    border: 2px solid #152D65;
+    border-top: none;
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+
+#checklist_details p {
+    background: none;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+#checklist_details input {
+    margin-right: 10px;
+}
+
+#checklist_icon {
+    background-image: url(images/checklist_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 20px calc(50% - 25px);
+}
+
+.save {
+    background-color: #099AB1;
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border: 2px solid #152D65;
+    color: #152D65;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 1em;
+}
+
+.save:hover {
+    background-color: #152D65;
+    color: white;
 }
 
 /*Course Outline CSS */
