@@ -361,8 +361,36 @@ section[id^="topic"] h4 {
 
 /* HOMEWORK */
 
+#homework_nav {
+    
+}
+
+#homework_nav a {
+    display: block;
+    background-color: #099AB1;
+    border: 2px solid #152D65;
+    color: #152D65;
+    letter-spacing: 0.08em;
+    height: 32px;
+    padding: 8px 8px 25px 8px;
+    
+}
+
+#homework_nav a:hover {
+    background-color: #152D65;
+    color: white;
+}
+
+#homework_nav ul {
+  padding: 5px 0;
+}
+
+#homework_nav ul li ul li {
+  width: calc(10% - 16px);
+}
+
 .session_number {
-    display: none;
+    visibility: hidden;
 }
 
 .hw_details {
@@ -388,7 +416,7 @@ section[id^="topic"] h4 {
 .hw_criteria {
     list-style: disc;
     list-style-position: outside;
-    margin: 0 0 40px 30px;
+    margin: 15px 0 40px 30px;
     font-size: 0.8em;
 }
 
@@ -429,7 +457,7 @@ section[id^="topic"] h4 {
 
 /* checklist */
 
-#checklist h3 {
+.checklist h3 {
     display: block;
     background-color: #099AB1;
     border: 2px solid #152D65;
@@ -439,7 +467,7 @@ section[id^="topic"] h4 {
     padding: 8px 8px 25px 8px;
 }
 
-#checklist_details {
+.checklist_details {
     border: 2px solid #152D65;
     border-top: none;
     background-color: white;
@@ -448,17 +476,17 @@ section[id^="topic"] h4 {
     
 }
 
-#checklist_details p {
+.checklist_details p {
     background: none;
     margin-bottom: 10px;
     font-size: 0.8em;
 }
 
-#checklist_details input {
+.checklist_details input {
     margin-right: 10px;
 }
 
-#checklist_icon {
+.checklist_icon {
     background-image: url(images/checklist_icon.png);
     background-repeat: no-repeat;
     background-size: cover;
