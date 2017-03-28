@@ -90,6 +90,10 @@ footer {
     padding: 25px 200px 25px 200px;
 }
 
+footer p a {
+    color: white;
+}
+
 /* HEADER */
 
 header {
@@ -681,4 +685,68 @@ h2 a {
     padding: 5px;
     margin: 30px 0 5px 0;
     text-align: right;
+}
+
+/* PRINT STYLES */
+
+@media print {
+
+    * {
+        background-color: white;
+        color: black;
+    }
+
+    body {
+        margin-top: -100px
+    }
+
+    header {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #menu_tab_in {
+        display: none;
+    }
+
+    #overview {
+        display: none;
+    }
+
+    .checklist_details {
+        display: none;
+    }
+
+    section {
+        margin: 50px 0 5px 0;
+        border: none;
+    }
+
+    .threequarter_wide a {
+        color: black;
+    }
+
+    .ex_and_res ul li a {
+        color: black;
+    }
+
+    .quarter_wide h3 {
+        display: none;
+    }
+
+    .quarter_wide {
+        margin-bottom: 90px;  
+    }
+
+    .about_me_list li a {
+        color: black;
+    }
+
+    .width_container h1 {
+        color: black;
+    }
+
 }
