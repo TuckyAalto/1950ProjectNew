@@ -548,21 +548,22 @@ section[id^="topic"] h4 {
     margin-bottom: 10px;
 }
 
-#outline_nav li {
+#outline_nav ul li {
+    font-size: 0.8em;
+    padding-bottom: 4px;
 }
 
 .outline_summary {
   border: 2px solid black;
   font-size: 16px;
-  height: 200px;
   padding-left: 25px;
   padding-top: 5px;
+    min-height: 250px;
 }
 
 .outline_list {
   list-style-type: disc;
   padding-left: 20px;
-  background-color: #f4f4f4;
 }
 
 /* Course Overview Page */
@@ -596,12 +597,18 @@ section[id^="topic"] h4 {
 }
 
 #weekly_content a {
-  display: block;
-  background-color: #152D65;
-  color: white;
-  height: 25px;
-  padding: 5px;
-  margin-top: 10px;
+    display: block;
+    background-color: #099AB1;
+    border: 2px solid #152D65;
+    color: #152D65;
+    letter-spacing: 0.08em;
+    height: 32px;
+    padding: 8px 8px 25px 8px;
+    overflow: hidden;
+}
+
+.content_min {
+    font-size: 0.8em;
 }
 
 /* Profile Page CSS */
