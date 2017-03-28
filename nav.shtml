@@ -1,0 +1,30 @@
+<ul>
+    <li><a href="home_page.shtml">HOME</a></li>
+    <li>LECTURES</li>
+    <li>
+        <ul>
+            <li><a href="#">01 | Tools &amp;Standards</a></li>
+            <li><a href="lecture.shtml">02 | HTML5</a></li>
+            <li><a href="#">03 | CSS3 Techniques</a></li>
+            <li><a href="#">04 | CSS Layouts</a></li>
+            <li><a href="#">05 | Responsive CSS</a></li>
+            <li><a href="#">06 | CSS3</a></li>
+            <li><a href="#">07 | Javascript Frameworks</a></li>
+            <li><a href="#" class="locked">08 | Dynamic Content</a></li>
+            <li><a href="#" class="locked">09 | Templating/SEO</a></li>
+            <li><a href="#" class="locked">10 | Methodology</a></li>
+            <li><a href="#" class="locked">11 | Project Work</a></li>
+        </ul>
+    </li>
+    <li><a href="homework.shtml">HOMEWORK</a></li>
+    <li><a href="profile_page.shtml">MY PROFILE</a></li>
+    <li>RESOURCES</li>
+    <li>
+        <ul>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="http://my.bcit.com">My BCIT</a></li>
+            <li><a href="http://learn.bcit.ca">D2L</a></li>
+        </ul>
+    </li>
+</ul>
