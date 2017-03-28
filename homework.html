@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
 
-    <title>bcit web development | comp 1950 lecture 1</title>
+    <title>bcit web development | homework</title>
 
     <link rel="stylesheet" type="text/css" href="reset.css" title="default styles">
 
@@ -35,30 +35,33 @@
 <!-- MENU -->
 
         <nav>
+            
+            <!--#include file="nav.shtml" -->
 
                         <ul>
                             <li><a href="home_page.html">HOME</a></li>
                             <li>LECTURES</li>
                             <li>
                                 <ul>
-                                    <li><a href="#">01 | Tools &amp; Standards</a></li>
-                                    <li><a href="#">02 | HTML5</a></li>
+                                    <li><a href="#">01 | Tools &amp;Standards</a></li>
+                                    <li><a href="lecture.html">02 | HTML5</a></li>
                                     <li><a href="#">03 | CSS3 Techniques</a></li>
                                     <li><a href="#">04 | CSS Layouts</a></li>
                                     <li><a href="#">05 | Responsive CSS</a></li>
                                     <li><a href="#">06 | CSS3</a></li>
                                     <li><a href="#">07 | Javascript Frameworks</a></li>
-                                    <li><a href="#">08 | Dynamic Content</a></li>
-                                    <li><a href="#">09 | Templating/SEO</a></li>
-                                    <li><a href="#">10 | Methodology</a></li>
-                                    <li><a href="#">11 | Project Work</a></li>
+                                    <li><a href="#" class="locked">08 | Dynamic Content</a></li>
+                                    <li><a href="#" class="locked">09 | Templating/SEO</a></li>
+                                    <li><a href="#" class="locked">10 | Methodology</a></li>
+                                    <li><a href="#" class="locked">11 | Project Work</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">HOMEWORK</a></li>
+                            <li><a href="homework.html">HOMEWORK</a></li>
+                            <li><a href="profile_page.html">MY PROFILE</a></li>
                             <li>RESOURCES</li>
                             <li>
                                 <ul>
-                                    <li><a href="#">Resources &amp; Readings</a></li>
+                                    <li><a href="#">Resources</a></li>
                                     <li><a href="#">Contact</a></li>
                                     <li><a href="http://my.bcit.com">My BCIT</a></li>
                                     <li><a href="http://learn.bcit.ca">D2L</a></li>
@@ -67,6 +70,7 @@
                         </ul>
 
                 </nav>
+
 
         <div id="menu_tab_in">
             <a href="#" onclick="menuShow()">MENU
@@ -98,7 +102,7 @@
                         </div>
                         <div id="signin">
                             <p><a href="#">Log In</a> | <a href="#">Log out</a></p>
-                            <img src="images/profile_icon.png" id="profile" alt="profile icon">
+                            <a href="profile_page.html"><img src="images/profile_icon.png" id="profile" alt="profile icon"></a>
                         </div>
                     </div>
             </div>
@@ -322,17 +326,17 @@ tag inheritance)</li>
 
                                         <p><input type="checkbox" name="S02item02" value="Complete" checked>Effectively utilised 2 new HTML5 element</p>
                                     
-                                        <p><input type="checkbox" name="S02item03" value="Complete">Write-up, describing HTML5 elements used</p>
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>Write-up, describing HTML5 elements used</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">Deployed HTML5 shiv</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">HTML Validator Link</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>HTML Validator Link</p>
                                     
-                                        <p><input type="checkbox" name="S02item05" value="Complete">Uploaded to server</p>
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>Uploaded to server</p>
                                     
-                                        <p><input type="checkbox" name="S02item06" value="Complete">Linked via your student homepage</p>
+                                        <p><input type="checkbox" name="S02item06" value="Complete" checked>Linked via your student homepage</p>
                                     
-                                        <p><input type="checkbox" name="S02item07" value="Complete">Link and text file submitted to dropbox</p>
+                                        <p><input type="checkbox" name="S02item07" value="Complete" checked>Link and text file submitted to dropbox</p>
                                     
                                     <input class="save" type="submit" value="Save Progress">
                                 </form>
@@ -344,7 +348,7 @@ tag inheritance)</li>
                     <li class="hw_summary">
                         <h4>Possible Marks: 10</h4>
                         <h4>Due: Session 03</h4>
-                        <h4>STATUS: IN PROGRESS</h4>
+                        <h4>STATUS: COMPLETE</h4>
                         
                     </li>
 
@@ -424,21 +428,21 @@ of your partner.
                                 <div class="checklist_icon"></div>
                                 
                                 <form action="/action_page.php" method="get">
-                                        <p><input type="checkbox" name="S02item01" value="Complete">Original and new stylesheet linked on partners homepage</p>
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Original and new stylesheet linked on partners homepage</p>
 
-                                        <p><input type="checkbox" name="S02item02" value="Complete">Distincly different styling from original stylesheet</p>
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>Distincly different styling from original stylesheet</p>
                                     
-                                        <p><input type="checkbox" name="S02item03" value="Complete">Partner's HTML unchanged</p>
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>Partner's HTML unchanged</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">Variety of CSS techniques included as requred</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Variety of CSS techniques included as requred</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">Deployed HTML5 shiv</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
                                     
-                                        <p><input type="checkbox" name="S02item05" value="Complete">Uploaded to server</p>
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>Uploaded to server</p>
                                     
-                                        <p><input type="checkbox" name="S02item06" value="Complete">Linked via your student homepage</p>
+                                        <p><input type="checkbox" name="S02item06" value="Complete" checked>Linked via your student homepage</p>
                                     
-                                        <p><input type="checkbox" name="S02item07" value="Complete">Link and text file submitted to dropbox</p>
+                                        <p><input type="checkbox" name="S02item07" value="Complete" checked>Link and text file submitted to dropbox</p>
                                     
                                     <input class="save" type="submit" value="Save Progress">
                                 </form>
@@ -450,7 +454,7 @@ of your partner.
                     <li class="hw_summary">
                         <h4>Possible Marks: 10</h4>
                         <h4>Due: Session 04</h4>
-                        <h4>STATUS: INCOMPLETE</h4>
+                        <h4>STATUS: COMPLETE</h4>
                         
                     </li>
 
@@ -514,27 +518,27 @@ of your partner.
                                 <div class="checklist_icon"></div>
                                 
                                 <form action="/action_page.php" method="get">
-                                        <p><input type="checkbox" name="S02item01" value="Complete">Dynamic layout applied across 3 pages</p>
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Dynamic layout applied across 3 pages</p>
 
-                                        <p><input type="checkbox" name="S02item02" value="Complete">Styles applied via external stylesheet only</p>
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>Styles applied via external stylesheet only</p>
                                     
-                                        <p><input type="checkbox" name="S02item03" value="Complete">CSS reset file included</p>
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>CSS reset file included</p>
                                     
-                                        <p><input type="checkbox" name="S02item03" value="Complete">Use of icons and image sprites</p>
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>Use of icons and image sprites</p>
                                     
-                                        <p><input type="checkbox" name="S02item03" value="Complete">List style navigation</p>
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>List style navigation</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">Deployed HTML5 shiv</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">HTML Validator Link</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>HTML Validator Link</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">CSS Validator Link</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>CSS Validator Link</p>
                                     
-                                        <p><input type="checkbox" name="S02item05" value="Complete">Uploaded to server</p>
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>Uploaded to server</p>
                                     
-                                        <p><input type="checkbox" name="S02item06" value="Complete">Linked via your student homepage</p>
+                                        <p><input type="checkbox" name="S02item06" value="Complete" checked>Linked via your student homepage</p>
                                     
-                                        <p><input type="checkbox" name="S02item07" value="Complete">Link and text file submitted to dropbox</p>
+                                        <p><input type="checkbox" name="S02item07" value="Complete" checked>Link and text file submitted to dropbox</p>
                                     
                                     <input class="save" type="submit" value="Save Progress">
                                 </form>
@@ -546,7 +550,7 @@ of your partner.
                     <li class="hw_summary">
                         <h4>Possible Marks: 10</h4>
                         <h4>Due: Session 05</h4>
-                        <h4>STATUS: INCOMPLETE</h4>
+                        <h4>STATUS: COMPLETE</h4>
                         
                     </li>
 
@@ -618,23 +622,23 @@ of your partner.
                                 <div class="checklist_icon"></div>
                                 
                                 <form action="/action_page.php" method="get">
-                                        <p><input type="checkbox" name="S02item01" value="Complete">Layout responsive across widescreen, small screen, and print</p>
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Layout responsive across widescreen, small screen, and print</p>
 
-                                        <p><input type="checkbox" name="S02item02" value="Complete">Demonstrated at least 3 CSS techniques as specified</p>
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>Demonstrated at least 3 CSS techniques as specified</p>
                                     
-                                        <p><input type="checkbox" name="S02item03" value="Complete">Write-up, outlining research into 2 additional CSS techniques</p>
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>Write-up, outlining research into 2 additional CSS techniques</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">Deployed HTML5 shiv</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">HTML Validator Link</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>HTML Validator Link</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">CSS Validator Link</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>CSS Validator Link</p>
                                     
-                                        <p><input type="checkbox" name="S02item05" value="Complete">Uploaded to server</p>
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>Uploaded to server</p>
                                     
-                                        <p><input type="checkbox" name="S02item06" value="Complete">Linked via your student homepage</p>
+                                        <p><input type="checkbox" name="S02item06" value="Complete" checked>Linked via your student homepage</p>
                                     
-                                        <p><input type="checkbox" name="S02item07" value="Complete">Link and text file submitted to dropbox</p>
+                                        <p><input type="checkbox" name="S02item07" value="Complete" checked>Link and text file submitted to dropbox</p>
                                     
                                     <input class="save" type="submit" value="Save Progress">
                                 </form>
@@ -646,7 +650,7 @@ of your partner.
                     <li class="hw_summary">
                         <h4>Possible Marks: 20</h4>
                         <h4>Due: Session 07</h4>
-                        <h4>STATUS: INCOMPLETE</h4>
+                        <h4>STATUS: COMPLETE</h4>
                         
                     </li>
 
@@ -707,13 +711,13 @@ of your partner.
                                 <div class="checklist_icon"></div>
                                 
                                 <form action="/action_page.php" method="get">
-                                        <p><input type="checkbox" name="S02item01" value="Complete">Deploy a jQuery plugin</p>
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Deploy a jQuery plugin</p>
 
-                                        <p><input type="checkbox" name="S02item02" value="Complete">A link to the site you downloaded the plugin from</p>
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>A link to the site you downloaded the plugin from</p>
                                     
                                         <p><input type="checkbox" name="S02item03" value="Complete">Write-up, describing the plugin</p>
                                     
-                                        <p><input type="checkbox" name="S02item04" value="Complete">Deployed HTML5 shiv</p>
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
                                     
                                         <p><input type="checkbox" name="S02item04" value="Complete">HTML Validator Link</p>
                                     
@@ -735,7 +739,7 @@ of your partner.
                     <li class="hw_summary">
                         <h4>Possible Marks: 10</h4>
                         <h4>Due: Session 08</h4>
-                        <h4>STATUS: INCOMPLETE</h4>
+                        <h4>STATUS: IN PROGRESS</h4>
                         
                     </li>
 

@@ -243,6 +243,15 @@ nav ul li ul {
     line-height: 1.8em;
 }
 
+.locked {
+    color: #d7d7d7;
+}
+
+.locked:hover {
+    color: #d7d7d7;
+    cursor: default;
+}
+
 nav ul li ul li a {
     color: #099AB1;
     font-size: 0.8em;
@@ -251,6 +260,8 @@ nav ul li ul li a {
 nav ul li ul li a:hover {
   color: #152D65;
 }
+
+
 
 
 
@@ -620,15 +631,13 @@ section[id^="topic"] h4 {
 }
 
 #profile_picture {
-    background-image: url(images/profile_picture.png);
+    background-image: url(images/profile_large.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    width: 600px;
+    background-size: contain;
 }
 
 #profile_about {
-    width: 55%;
+    
 }
 
 .homework_bar {

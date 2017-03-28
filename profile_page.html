@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
 
-    <title>bcit web development | comp 1950 lecture 1</title>
+    <title>bcit web development | profile</title>
 
     <link rel="stylesheet" type="text/css" href="reset.css" title="default styles">
 
@@ -29,30 +29,33 @@
 <!-- MENU -->
 
         <nav>
+            
+            <!--#include file="nav.shtml" -->
 
                         <ul>
                             <li><a href="home_page.html">HOME</a></li>
                             <li>LECTURES</li>
                             <li>
                                 <ul>
-                                    <li><a href="#">01 | Tools &amp; Standards</a></li>
-                                    <li><a href="#">02 | HTML5</a></li>
+                                    <li><a href="#">01 | Tools &amp;Standards</a></li>
+                                    <li><a href="lecture.html">02 | HTML5</a></li>
                                     <li><a href="#">03 | CSS3 Techniques</a></li>
                                     <li><a href="#">04 | CSS Layouts</a></li>
                                     <li><a href="#">05 | Responsive CSS</a></li>
                                     <li><a href="#">06 | CSS3</a></li>
                                     <li><a href="#">07 | Javascript Frameworks</a></li>
-                                    <li><a href="#">08 | Dynamic Content</a></li>
-                                    <li><a href="#">09 | Templating/SEO</a></li>
-                                    <li><a href="#">10 | Methodology</a></li>
-                                    <li><a href="#">11 | Project Work</a></li>
+                                    <li><a href="#" class="locked">08 | Dynamic Content</a></li>
+                                    <li><a href="#" class="locked">09 | Templating/SEO</a></li>
+                                    <li><a href="#" class="locked">10 | Methodology</a></li>
+                                    <li><a href="#" class="locked">11 | Project Work</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">HOMEWORK</a></li>
+                            <li><a href="homework.html">HOMEWORK</a></li>
+                            <li><a href="profile_page.html">MY PROFILE</a></li>
                             <li>RESOURCES</li>
                             <li>
                                 <ul>
-                                    <li><a href="#">Resources &amp; Readings</a></li>
+                                    <li><a href="#">Resources</a></li>
                                     <li><a href="#">Contact</a></li>
                                     <li><a href="http://my.bcit.com">My BCIT</a></li>
                                     <li><a href="http://learn.bcit.ca">D2L</a></li>
@@ -61,6 +64,7 @@
                         </ul>
 
                 </nav>
+
 
         <div id="menu_tab_in">
             <a href="#" onclick="menuShow()">MENU
@@ -92,7 +96,7 @@
                         </div>
                         <div id="signin">
                             <p><a href="#">Log In</a> | <a href="#">Log out</a></p>
-                            <img src="images/profile_icon.png" id="profile" alt="profile icon">
+                            <a href="profile_page.html"><img src="images/profile_icon.png" id="profile" alt="profile icon"></a>
                         </div>
                     </div>
             </div>
@@ -113,7 +117,7 @@
             <div id="main_profile_section">
 
 
-                    <div id="profile_about">
+                    <div id="profile_about" class="threequarter_wide">
                     	<!-- form inputs would be placed for user to fillout information -->
                         <h3>Aspiring Web Developer</h3>
                         <p>Hello, my name is Braydon Swanson and I am currently enrolled in BCIT studies learning Web Design and Development. I have a passion for building ever since I was a child playing with Lego.
@@ -131,7 +135,7 @@
                         <p>I believe in simple is always better, I try and take a minimilistic approach to all my designs. As a user myself I'm mainly interested in the content and not so much flashy details that distract me.</p>
                     </div>
 
-                    <div id="profile_picture"></div>
+                    <div id="profile_picture" class="quarter_wide"></div>
             </div>
 
     </div>
