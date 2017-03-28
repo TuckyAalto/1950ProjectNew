@@ -221,6 +221,13 @@ section {
     width: calc(50% - 32px);
 }
 
+.image {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    margin-bottom: 32px;
+}
+
 #mock-up {
     width: 100%;
     margin: 24px 0;
