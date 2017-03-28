@@ -574,6 +574,7 @@ section[id^="topic"] h4 {
 
 .outline_summary {
   border: 2px solid black;
+    border-top: none;
   font-size: 16px;
   padding-left: 25px;
   padding-top: 5px;
@@ -747,6 +748,10 @@ h2 a {
 
     .width_container h1 {
         color: black;
+    }
+    
+    *[id^="jump"] {
+    page-break-before: always;
     }
 
 }

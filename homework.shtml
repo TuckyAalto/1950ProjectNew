@@ -68,7 +68,7 @@
             <div class="width_container">
                     <div id="titlebar">
                         <div>
-                            <img src="images/bcit_logo.png" id="logo" alt="logo">
+                            <a href="home_page.shtml"><img src="images/bcit_logo.png" id="logo" alt="logo"></a>
                             <p>bcit web development</p>
                         </div>
                         <div id="signin">
