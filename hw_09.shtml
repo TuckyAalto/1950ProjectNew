@@ -1,0 +1,53 @@
+<div class="width_container">
+
+        <h2>Homework <span class="session_number">| S09</span></h2>
+                <ul class="hw_details">
+                    
+                    <li class="threequarter_wide">
+                        <h3>Work with a template based CMS</h3>
+
+                            <p>Create an account with either Wordpress or Tumblr. Choose a pre built theme, and make at least two alterations to it (color, font,etc). Add a minimum of three posts. Include the use of text, hyperlinks and images. The content of one of the three posts must include a list of what parts of the theme you changed. The content of the remaining posts may be anything you like. Use a latin generator to create generic content if you wish (http://www.lipsum.com/). Provide a link on your homepage to your Tumblr or Wordpress blog page.</p>
+                            <br>
+                        
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div class="checklist_details">
+                                
+                                <div class="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete">Create a Wordpress or Tumblr account</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete">Select a theme and make at least 2 style changes</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete">Add content, including text, links, and images</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete">Create a post describing the changes you've made</p>
+                                    
+                                        <p><input type="checkbox" name="S02item06" value="Complete">Linked via your student homepage</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete">Link and text file submitted to dropbox</p>
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
+
+                    </li>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 10</h4>
+                        <h4>Due: Session 10</h4>
+                        <h4>STATUS: INCOMPLETE</h4>
+                        
+                    </li>
+
+                </ul>
+    </div>

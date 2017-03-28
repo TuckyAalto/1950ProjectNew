@@ -1,0 +1,74 @@
+<div class="width_container">
+
+        <h2>Homework <span class="session_number">| S03</span></h2>
+                <ul class="hw_details">
+                    
+                    <li class="threequarter_wide">
+                        <h3>Use advanced CSS techniques and alternate stylesheets</h3>
+
+                            <p>You will need to partner and coordinate with another COMP1950 student to complete this lab.</p>
+                        
+                            <p>Create an alternate stylesheet for the homework # 1 homepage of your partner. Since you won’t have access to their FTP credentials, you will need to have them provide you with a copy of all relevant files (html, css, images, etc). Once you have created your new stylesheet send your partner a copy (and any other relevant files such as background images your CSS uses).</p>
+                        
+                            <p>As much as possible, try to make your alternate stylesheet display your partner’s homepage as significantly different. Your stylesheet must style the page with different fonts/typesetting, color schemes, and possibly also layouts and background images. Make an effort to create a visually appealing style that is clearly distinct from the original.</p>
+                        
+                            <p>Do not make changes to the HTML code of your partner’s homepage, other than adding the appropriate link tags to the head section. When you receive the styles your partner writes for your homepage, apply them as an alternate stylesheet. The title of your alternate stylesheet MUST include the fullname of your partner.</p>
+                        
+                        <h3>Additional Criteria</h3>
+                          <p>Demonstrate the following CSS techniques in your stylesheet:</p>
+                        
+                            <ul class="hw_criteria">
+                                <li>id, class and HTML selectors</li>
+                                <li>Descendant selectors</li>
+                                <li>Child Selectors</li>
+                                <li>Attribute selectors</li>
+                                <li>Pseudo-classes</li>
+                            </ul>
+                        
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div class="checklist_details">
+                                
+                                <div class="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Original and new stylesheet linked on partners homepage</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>Distincly different styling from original stylesheet</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>Partner's HTML unchanged</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Variety of CSS techniques included as requred</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>Uploaded to server</p>
+                                    
+                                        <p><input type="checkbox" name="S02item06" value="Complete" checked>Linked via your student homepage</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete" checked>Link and text file submitted to dropbox</p>
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
+
+                    </li>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 10</h4>
+                        <h4>Due: Session 04</h4>
+                        <h4>STATUS: COMPLETE</h4>
+                        
+                    </li>
+
+                </ul>
+    </div>

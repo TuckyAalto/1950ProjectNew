@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+
+    <title>bcit web development | homework</title>
+
+    <link rel="stylesheet" type="text/css" href="reset.css" title="default styles">
+    
+    <link rel="stylesheet" type="text/css" href="styles.css" title="default styles">
+    
+    <link rel="alternate stylesheet" type="text/css" href="projector.css" title="projector styles">
+    
+    <style>
+        .session_number {
+            visibility: visible;
+        }
+    </style>
+
+    <!--[if lt IE 9]>
+	   <script src="../html5shiv.js"></script>
+    <![endif]-->
+
+    <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="menu.js"></script>
+    <script src="lecture_nav.js"></script>
+
+</head>
+<body>
+
+
+    <div id="wrapper_hide">
+
+
+<!-- MENU -->
+
+        <nav>
+            
+            <!--#include file="nav.shtml" -->      
+        </nav>
+
+
+        <div id="menu_tab_in">
+            <a href="#" onclick="menuShow()">MENU
+            <div id="menu_icon"></div></a>
+        </div>
+
+        <div id="menu_tab_out">
+            <a href="#" onclick="menuHide()">MENU
+            <div id="menu_icon"></div></a>
+        </div>
+
+
+<!-- MAIN VIEWPORT CONTENT -->
+
+        <div id="container">
+        <div id="container_dim" onclick="menuHide()"></div>
+
+
+
+<!-- HEADER -->
+
+
+        <header>
+            <div class="width_container">
+                    <div id="titlebar">
+                        <div>
+                            <img src="images/bcit_logo.png" id="logo" alt="logo">
+                            <p>bcit web development</p>
+                        </div>
+                        <div id="signin">
+                            <p><a href="#">Log In</a> | <a href="#">Log out</a></p>
+                            <a href="profile_page.shtml"><img src="images/profile_icon.png" id="profile" alt="profile icon"></a>
+                        </div>
+                    </div>
+            </div>
+        </header>
+
+            
+<!-- EVERYTHING FROM HERE UP SHOULD BE ON EVERY PAGE -->
+            
+    <section id="overview">
+        <div class="width_container">
+
+            <h1>Homework</h1>
+            
+            <div id="homework_nav">
+
+                    <ul>              
+                        <li>
+                            <ul id="topic_nav">
+                                <li><a href="#jump01">S01</a>
+                                </li>
+                                
+                                <li><a href="#jump02">S02</a>
+                                </li>
+                                
+                                <li><a href="#jump03">S03</a>
+                                </li>
+                                
+                                <li><a href="#jump04">S04</a>
+                                </li>
+                                
+                                <li><a href="#jump05">S05</a>
+                                </li>
+                                
+                                <li><a href="#jump06">S07</a>
+                                </li>
+                                
+                                <li><a href="#jump07">S08</a>
+                                </li>
+                                
+                                <li><a href="#jump08">S09</a>
+                                </li>
+                                
+                                <li><a href="#jump09">S10</a>
+                                </li>
+                                
+                                <li><a href="#jump10">S11</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+            </div>
+        
+        </div>
+        
+    </section>
+        
+            
+<!-- HOMEWORK S01 -->
+
+<div id="jump01" class="jump_offset"></div>
+<section class="homework" id="hw_01">
+    
+    <!--#include file="hw_01.shtml" -->
+    
+</section>
+            
+<!-- HOMEWORK S02 -->
+
+<div id="jump02" class="jump_offset"></div>
+<section class="homework" id="hw_02">
+    
+    <!--#include file="hw_02.shtml" -->
+    
+</section>
+
+
+<!-- HOMEWORK S03 -->
+
+<div id="jump03" class="jump_offset"></div>
+<section class="homework" id="hw_03">
+    
+    <!--#include file="hw_03.shtml" -->
+    
+    
+</section>
+            
+            
+<!-- HOMEWORK S04 -->
+
+<div id="jump04" class="jump_offset"></div>
+<section class="homework" id="hw_04">
+    
+    <!--#include file="hw_04.shtml" -->
+    
+</section>
+            
+            
+<!-- HOMEWORK S05 -->
+
+<div id="jump05" class="jump_offset"></div>
+<section class="homework" id="hw_05">
+    
+    <!--#include file="hw_05.shtml" -->
+    
+</section>
+            
+            
+<!-- HOMEWORK S07 -->
+
+<div id="jump06" class="jump_offset"></div>
+<section class="homework" id="hw_07">
+    
+    <!--#include file="hw_07.shtml" -->
+    
+</section>
+                   
+            
+<!-- HOMEWORK S08 -->
+
+<div id="jump07" class="jump_offset"></div>
+<section class="homework" id="hw_08">
+    
+    <!--#include file="hw_08.shtml" -->
+    
+</section>
+            
+            
+<!-- HOMEWORK S09 -->
+
+<div id="jump08" class="jump_offset"></div>
+<section class="homework" id="hw_09">
+    
+    <!--#include file="hw_09.shtml" -->
+    
+</section>
+            
+            
+<!-- HOMEWORK S10 -->
+
+<div id="jump09" class="jump_offset"></div>
+<section class="homework" id="hw_10">
+    
+    <!--#include file="hw_10.shtml" -->
+    
+</section>
+            
+            
+<!-- HOMEWORK S11 -->
+
+<div id="jump10" class="jump_offset"></div>
+<section class="homework" id="hw_11">
+    
+    <!--#include file="hw_11.shtml" -->
+    
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+    <p>bcit web development</p>
+    <p>home page</p> 
+</footer>            
+            
+<!-- AND EVERYTHING FROM HERE DOWN -->
+            
+</div>
+</div>
+</body>
+</html>

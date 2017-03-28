@@ -1,0 +1,75 @@
+<div class="width_container">
+
+        <h2>Homework <span class="session_number">| S01</span></h2>
+                <ul class="hw_details">
+                    <li class="threequarter_wide">
+                        <h3>Publish your COMP1950 homepage</h3>
+
+                        <p>Create a homepage to serve as the hub for all your work in COMP1950. As subsequent homework assignments are issued, you will add links to them on this page. Your homepage should state your full name, or nickname if you prefer. Include some biographical information about yourself (such as from your introduction today) and a photo.</p>
+                        
+                        <p>Also include a brief overview of your skill level, web development work you have done so far (if any), as well as a list of tools, plug-ins, applications or IDEs that you use for web development, including links to the web pages of these tools, and links to some of your favorite sites, accompanied by brief descriptions explaining why these sites are favorites.</p>
+                        
+                        <p>Use your understanding of HTML and CSS to the limit of your knowledge, but ensure that it is usable, presentable and coherent. Use CSS, not HTML tables, to define the layout of this page. Include the use of both .class and #id CSS selectors. Do NOT use any Javascripting or server side scripting. Be prepared to share this page with your colleagues in subsequent homework assignments: design and build a page you can be proud of. This page will be used as the entry point for all of your COMP1950 work, edited each week. Don't make your instructor have to search for your homework.</p>
+                        
+                        <h3>Additional Criteria</h3>
+                          
+                        <p>This and all subsequent COMP 1950 homework assignments are due the day before the following class unless otherwise noted (eg: if assigned Monday, Jan 1, homework is due Tuesday, Jan 2 11:59pm). Only files located on the COMP 1950 web server will be marked. All submissions must include:</p>
+                        
+                            <ul class="hw_criteria">
+                                <li>Well formed, valid, semantic HTML. Structural errors are not permitted (eg: misplacing a li tag, or duplicating an id assignment). Non-structural errors are permissible (eg: using a color name not recognized by the validator)</li>
+                                <li>Include a <a href="http://validator.w3.org/check?uri=referer">referer link</a> on all your COMP1950 pages</li>
+                                <li>Good file/folder naming conventions</li>
+                                <li>Good code practices. (Comment major sections of code, use tabs to indicate tag inheritance)</li>
+                            </ul>
+                        
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div class="checklist_details">
+                                
+                                <div class="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Full name, bio, and photo</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>Overview of skills and experience</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>List of favourite tools and resources</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Links to some of your favourite sites</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>CSS stylesheet</p>
+                                    
+                                        <p><input type="checkbox" name="S02item06" value="Complete" checked>Use of both .class and #id selectors</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>Uploaded to server</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete" checked>Link and text file submitted to dropbox</p>
+                                    
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
+
+                    </li>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 10</h4>
+                        <h4>Due: Session 02</h4>
+                        <h4>STATUS: COMPLETE</h4>
+                        
+                    </li>
+
+                </ul>
+        
+                
+
+    </div>

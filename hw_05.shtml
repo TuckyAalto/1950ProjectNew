@@ -1,0 +1,83 @@
+<div class="width_container">
+
+        <h2>Homework <span class="session_number">| S05</span></h2>
+                <ul class="hw_details">
+                    
+                    <li class="threequarter_wide">
+                        <h3>Build a responsive layout and demonstrate CSS3 techniques</h3>
+
+                            <p>Create a responsive layout that demonstrates CSS3 techniques. You may build an entirely new layout or you can attempt to re-use the layout used from Homework #4. Remember to include a link to this Homework #5 page on your home page.</p>
+                        
+                            <p>Create at least 3 distinct layouts/styles for widescreen, small screen, and printing.</p>
+                        
+                            <p>Apply whatever responsive breakpoints you feel are best for your layout. For small devices use responsive design best practices, including vertical stacked navigation and priority ordering of content. It is up to you if you want to assign fixed font and image sizes or use fluid fonts and images. For printing, use appropriate fonts, hide printout useless content and display the href of all fully qualified links.</p>
+                        
+                            
+                        
+                        
+                        <h3>Additional Criteria</h3>
+                            <p>Write a review to promote your favorite book, television show, movie, game or pastime. Explain the reasons you enjoy it, and why someone else might enjoy it too. Provide tips or suggestions for those who might not know much about the subject. Make an effort to persuade the user by using relevant images, descriptions, links to related resources etc.</p>
+                        
+                            <p>Research online for at least 2 new CSS3 techniques not covered in comp1950. Either learn new ways of using some of properties already introduced in class or learn about how to use properties not yet discussed. Deploy both of these new techniques on the page and explain, in brief, what you are doing with them. Provide links to the online resources you used during research. Include notes about any browser compatibility issues, or vendor-prefixing required.</p>
+                        
+                            <p>Throughout this page, demonstrate at least 3 CSS3 techniques from the following list of features:</p>
+                            
+                        
+                            <ul class="hw_criteria">
+                                <li>border-radius</li>
+                                <li>box-shadow</li>
+                                <li>text-shadow</li>
+                                <li>transition</li>
+                                <li>gradient</li>
+                                <li>multiple backgrounds</li>
+                            </ul>
+                        
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div class="checklist_details">
+                                
+                                <div class="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Layout responsive across widescreen, small screen, and print</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>Demonstrated at least 3 CSS techniques as specified</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>Write-up, outlining research into 2 additional CSS techniques</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>HTML Validator Link</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>CSS Validator Link</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>Uploaded to server</p>
+                                    
+                                        <p><input type="checkbox" name="S02item06" value="Complete" checked>Linked via your student homepage</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete" checked>Link and text file submitted to dropbox</p>
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
+
+                    </li>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 20</h4>
+                        <h4>Due: Session 07</h4>
+                        <h4>STATUS: COMPLETE</h4>
+                        
+                    </li>
+
+                </ul>
+    </div>

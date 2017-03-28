@@ -1,0 +1,82 @@
+<div class="width_container">
+
+        <h2>Final Project <span class="session_number">| S11</span></h2>
+                <ul class="hw_details">
+                    
+                    <li class="threequarter_wide">
+                        <h3>Group Project | Comp1950 Re-design </h3>
+
+                            <p>Using production methods and development techniques from throughout this course, your group will create a proto-site and documents to support the redesign of the COMP1950 web site. The COMP 1950 owner would like the web site redesigned in order to better meet the needs of students. The website owner has contracted your group, as students of the class, to act as contractors for this project.</p>
+                        
+                            <p>Students must have easy access to notes, examples and other information. The site should reflect the aims of the course: Standards compliant web development, CSS, HTML 5, Methodology-driven design, etc.</p>
+                        
+                            <p>Think outside the box - don't just copy the current design. Look around at other sites and use your creativity. But - be realistic! Make your suggestions something that can work. If you have questions that will further refine your own direction, ask the owner of the site for details. Think about this project in context of the Methodology discussion of session 10.</p>
+                        
+                            <p>All of this should be presented in an HTML 5 compliant web site with CSS. The layout must handle well in desktop and laptop modern browsers with varying widths and heights. It does not neccessarily have to be optimized for handheld devices, unless your group decides this would be a useful feature.</p>
+                        
+                            <p>Your client (instructor) has filled out a project questionnaire &#40;link below&#41; to better clarify what they are looking for.</p>
+                        
+                        <h3>Additional Criteria</h3>
+                            <p>For this project, you have been contracted to provide a protosite and supporting documents for the proposed website.
+                            You will create a web site that describes the project and includes links to various project artifacts. This is generally known as a meta site. Note the meta site is about the entire redesign project, it will include the proposed site redesign, but it is not itself the redesign. It should have its own appealing design and layout, distinct from the proposed site redesign.</p>
+                        
+                            <p>The meta site should include:</p>
+                        
+                            <ul class="hw_criteria">
+                                <li>An Introduction page that describes the project and the members of the team. This page should also list what each team member actually did during the project, and provide a navigation for the rest of the project web site.</li>
+                                <li>A proto-site that has at least four of the pages mocked up. Preferably pages that are representative of different page types, eg: the home page, a lecture page an example quiz page, etc. The mockup pages must be styled to reflect the website you propose to build. It should demonstrate the proposed layout, color scheme, font choices and an example site navigation. All proto-site pages should have two optional stylesheets: one normal view, one for the in-class overhead projector. They should also feature a printer optimized stylesheet.</li>
+                                <li>Sitemap should demonstrate the proposed website information architecture by showing a site map. The links of the sitemap dont need to link to anything.</li>
+                                <li>Rationale page - this is among the most important pages in your project. This is your chance to 'sell' your efforts to your client instructor. This is where you describe why you chose to build the site in the way you have proposed. List all the deliverables you have implemented, and and any features or improvements you have added. Justify your decisions for choosing a particular layout and design. If you used advanced technology such as jQuery or CSS3, mention where it is being used, and why. Also List any features you had planned to implement but could not complete. If your rationale does not decribe a sufficient quantity of improvements, and if it does not effectively make a case for how these changes improve the site, your client will not be conviced that your team is the best choice.</li>
+                            </ul>
+                        
+                            <a href="#">Download the Project Questionnaire</a>
+                            <br>
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div class="checklist_details">
+                                
+                                <div class="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete">4 Unique Proto-Pages</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete">Default Stylesheet</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete">Projector View Stylesheet</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete">Meta Site, including Introduction, Site Map and Rationale</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete">HTML Validator Link</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete">CSS Validator Link</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete">Uploaded to server</p>
+                                    
+                                        <p><input type="checkbox" name="S02item06" value="Complete">Linked via your student homepage</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete">Link and text file submitted to dropbox</p>
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
+
+                    </li>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 20</h4>
+                        <h4>Due: Session 12</h4>
+                        <h4>STATUS: INCOMPLETE</h4>
+                        
+                    </li>
+
+                </ul>
+    </div>

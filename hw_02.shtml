@@ -1,0 +1,75 @@
+<div class="width_container">
+
+        <h2>Homework <span class="session_number">| S02</span></h2>
+
+                <ul class="hw_details">
+                    
+                    <li class="threequarter_wide">
+                        <h3>Create an HTML5 web page</h3>
+
+                            <p>Build an HTML5 page that describes two or more places you have lived or visited other
+                              than Vancouver BC (cities, countries, any locales of your choice). Include text and
+                              images to inform the user about each place. At minimum, use one image and several
+                              sentences to describe each place. You may use images that you find online, but the
+                              textual content should be authored by you. Describe what you liked or did not like
+                              about the place, and some useful or interesting information you know (eg: where your
+                              favorite restaurant is).</p>
+                        
+                        <h3>Additional Criteria</h3>
+                          <p>Using any resources available to you, investigate two new HTML5 elements or features
+                            not demonstrated in class. Use these elements on the page. Include on this page the
+                            following information about each of the two new HTML tags:</p>
+                        
+                            <ul class="hw_criteria">
+                                <li>Descriptions of the semantics/rules of use (eg: parent/child relationships)</li>
+                                <li>A list of relevant attributes and details about how to use each attribute</li>
+                                <li>Browser compatibility issues (if any) for this element across IE, Firefox, Chrome, Safari, and/or Opera.</li>
+                                <li>Any additional notes you deem relevent</li>
+                            </ul>
+                        
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div class="checklist_details">
+                                
+                                <div class="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Description and images of 2 places</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>Effectively utilised 2 new HTML5 element</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>Write-up, describing HTML5 elements used</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>HTML Validator Link</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>Uploaded to server</p>
+                                    
+                                        <p><input type="checkbox" name="S02item06" value="Complete" checked>Linked via your student homepage</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete" checked>Link and text file submitted to dropbox</p>
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
+
+                    </li>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 10</h4>
+                        <h4>Due: Session 03</h4>
+                        <h4>STATUS: COMPLETE</h4>      
+                    </li>
+                </ul>  
+
+    </div>
