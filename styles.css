@@ -637,3 +637,8 @@ section[id^="topic"] h4 {
     background-color: #f4f4f4;
     padding: 5px;
     margin-bottom: 5px;
+}
+
+h2 a {
+    color: white;
+}
