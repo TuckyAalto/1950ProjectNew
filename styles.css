@@ -384,7 +384,8 @@ section[id^="topic"] h4 {
 
 .ex_and_res ul {
     list-style: disc;
-    list-style-position: inside
+    list-style-position: inside;
+    padding-top: 32px;
 }
 
 .threequarter_wide h2 {
