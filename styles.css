@@ -71,7 +71,10 @@ body {
   color: white;
 }
 
-
+section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 /* HEADER */
 
@@ -275,6 +278,10 @@ nav ul li ul li a:hover {
     text-align: center;
 }
 
+.topic_details {
+    margin-top: 10px;
+}
+
 .topic_summary {
     display: block;
     border: 2px solid #152D65;
@@ -327,8 +334,8 @@ nav ul li ul li a:hover {
 
 section {
     background-color: white;
-    border-top: 2px dashed grey;
-    border-bottom: 2px dashed grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
     width: 100%;
     margin: 0 0 32px 0;
 }
@@ -357,6 +364,10 @@ section[id^="topic"] h4 {
 
 .threequarter_wide h2 {
   background-color: #152D65;
+}
+
+.ex_and_res ul li a {
+    color: #099AB1;
 }
 
 /* HOMEWORK */
@@ -439,6 +450,10 @@ section[id^="topic"] h4 {
     margin-top: 20px;
 }
 
+.width_container h1 {
+    color: #099AB1;
+}
+
 .width_container h2 {
   background-color: #152D65;
   color: white;
@@ -512,6 +527,10 @@ section[id^="topic"] h4 {
     color: white;
 }
 
+.lesson li li ul li a {
+    color: #099AB1;
+}
+
 /*Course Outline CSS */
 
 #outline_nav {
@@ -544,10 +563,6 @@ section[id^="topic"] h4 {
     margin-top: 30px;
 }
 
-#outline_overview {
-  height: 385px;
-}
-
 .fixed {
 	position: fixed;
     top: 70px;
@@ -560,8 +575,8 @@ section[id^="topic"] h4 {
 }
 
 #course_overview {
-  height: 350px;
   padding-bottom: 5px;
+  background-color: #f4f4f4;
 }
 
 #course_overview ul {
@@ -579,4 +594,41 @@ section[id^="topic"] h4 {
   height: 25px;
   padding: 5px;
   margin-top: 10px;
+}
+
+/* Profile Page CSS */
+
+#main_profile_section{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+#profile_picture {
+    background-image: url(images/profile_picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 600px;
+}
+
+#profile_about {
+    width: 55%;
+}
+
+.homework_bar {
+    padding-top: 10px;
+}
+
+.about_me_list {
+    padding: 5px 0 5px 25px
+}
+
+.about_me_list li {
+    padding: 10px 0 10px 0;
+    list-style-type: disc
+}
+
+.about_me_list li a {
+    color: #099AB1;
 }

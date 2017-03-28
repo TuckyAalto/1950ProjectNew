@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+
+    <title>bcit web development | comp 1950 lecture 1</title>
+
+    <link rel="stylesheet" type="text/css" href="reset.css" title="default styles">
+
+    <link rel="stylesheet" type="text/css" href="styles.css" title="default styles">
+
+    <!--[if lt IE 9]>
+	   <script src="../html5shiv.js"></script>
+    <![endif]-->
+
+    <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="menu.js"></script>
+    <script src="lecture_nav.js"></script>
+
+</head>
+<body>
+
+
+    <div id="wrapper_hide">
+
+
+<!-- MENU -->
+
+        <nav>
+
+                        <ul>
+                            <li><a href="home_page.html">HOME</a></li>
+                            <li>LECTURES</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">01 | Tools &amp; Standards</a></li>
+                                    <li><a href="#">02 | HTML5</a></li>
+                                    <li><a href="#">03 | CSS3 Techniques</a></li>
+                                    <li><a href="#">04 | CSS Layouts</a></li>
+                                    <li><a href="#">05 | Responsive CSS</a></li>
+                                    <li><a href="#">06 | CSS3</a></li>
+                                    <li><a href="#">07 | Javascript Frameworks</a></li>
+                                    <li><a href="#">08 | Dynamic Content</a></li>
+                                    <li><a href="#">09 | Templating/SEO</a></li>
+                                    <li><a href="#">10 | Methodology</a></li>
+                                    <li><a href="#">11 | Project Work</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">HOMEWORK</a></li>
+                            <li>RESOURCES</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">Resources &amp; Readings</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="http://my.bcit.com">My BCIT</a></li>
+                                    <li><a href="http://learn.bcit.ca">D2L</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                </nav>
+
+        <div id="menu_tab_in">
+            <a href="#" onclick="menuShow()">MENU
+            <div id="menu_icon"></div></a>
+        </div>
+
+        <div id="menu_tab_out">
+            <a href="#" onclick="menuHide()">MENU
+            <div id="menu_icon"></div></a>
+        </div>
+
+
+<!-- MAIN VIEWPORT CONTENT -->
+
+        <div id="container">
+        <div id="container_dim" onclick="menuHide()"></div>
+
+
+
+<!-- HEADER -->
+
+
+        <header>
+            <div class="width_container">
+                    <div id="titlebar">
+                        <div>
+                            <img src="images/bcit_logo.png" id="logo" alt="logo">
+                            <p>bcit web development</p>
+                        </div>
+                        <div id="signin">
+                            <p><a href="#">Log In</a> | <a href="#">Log out</a></p>
+                            <img src="images/profile_icon.png" id="profile" alt="profile icon">
+                        </div>
+                    </div>
+            </div>
+        </header>
+
+            
+<!-- EVERYTHING FROM HERE UP SHOULD BE ON EVERY PAGE -->
+            
+            
+
+<!-- CONTENT -->
+
+
+<section>
+    <div class="width_container">
+
+        <h2>Profile Page</h2>
+            <div id="main_profile_section">
+
+
+                    <div id="profile_about">
+                    	<!-- form inputs would be placed for user to fillout information -->
+                        <h3>Braydon Swanson - 25 Years Old</h3>
+                        <h3>Aspiring Web Developer</h3>
+                        <p>Hello, my name is Braydon Swanson and I am currently enrolled in BCIT studies learning Web Design and Development. I have a passion for building ever since I was a child playing with Lego.
+                        My goals are to be a successful Web Developer and one day work for myself.</p>
+                        <h3>Web Projects You Have Worked On:</h3>
+                     	<p>I have worked on a number of web pages since starting at BCIT, you can see my progression of skill through each site.</p>
+                     	<ul class="about_me_list">
+                     		<li><a href="#">COMP 1950 Intro Page</a></li>
+                     		<li><a href="#">COMP 1950 Responsive Design Page</a></li>
+                     		<li><a href="#">COMP 1950 JavaScript Page</a></li>
+                     		<li><a href="#">Pemberton Survival Guide</a></li>
+                     	</ul>
+                        <h3>Design Philosophy</h3>
+                        <p>I believe in simple is always better, I try and take a minimilistic approach to all my designs. As a user myself I'm mainly interested in the content and not so much flashy details that distract me.</p>
+                    </div>
+
+                    <div id="profile_picture"></div>
+            </div>
+
+    </div>
+</section>
+
+
+
+<!-- LESSONS -->
+
+
+<!-- Topic 1 -->
+
+
+<section id="profile_homework">
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S01</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Publish your COMP1950 homepage</h3>
+                        <p>Create a homepage to serve as the hub for all your work in COMP1950. As subsequent homework assignments are issued, you will add links to them on this page. Your homepage should state your full name, or nickname if you prefer. Include some biographical information about yourself (such as from your introduction today) and a photo.</p>
+                    </li>	
+
+                </div>
+
+
+
+            </ul>
+    </div>
+
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S02</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Create an HTML5 web page</h3>
+                        <p>Build an HTML5 page that describes two or more places you have lived or visited other than Vancouver BC (cities, countries, any locales of your choice). Include text and images to inform the user about each place. At minimum, use one image and several sentences to describe each place. You may use images that you find online, but the textual content should be authored by you. Describe what you liked or did not like about the place, and some useful or interesting information you know (eg: where your favorite restaurant is).</p>
+                    </li>
+                </div>
+            </ul>
+    </div>
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S03</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Use advanced CSS techniques and alternate stylesheets</h3>
+                        <p>You will need to partner and coordinate with another COMP1950 student to complete this lab.</p>
+						<p>Create an alternate stylesheet for the homework # 1 homepage of your partner. Since you won’t have access to their FTP credentials, you will need to have them provide you with a copy of all relevant files (html, css, images, etc). Once you have created your new stylesheet send your partner a copy (and any other relevant files such as background images your CSS uses).</p>
+                    </li>
+                </div>
+            </ul>
+    </div>
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S04</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Design a CSS layout</h3>
+                        <p>Create one layout that is demonstrated across three pages for your web space. Be sure your homepage from Homework#1 includes an easy to find link for finding one of these new pages. These pages may not use any of the previous layouts or styles from your earlier comp1950 work.</p>
+                    </li>
+                </div>
+            </ul>
+    </div>
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S05</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Build a responsive layout and demonstrate CSS3 techniques</h3>
+                        <p>Create a responsive layout that demonstrates CSS3 techniques. You may build an entirely new layout or you can attempt to re-use the layout used from Homework #4. Remember to include a link to this Homework #5 page on your home page.</p>
+						<p>Create at least 3 distinct layouts/styles for widescreen, small screen, and printing.</p>
+                    </li>
+                </div>
+            </ul>
+    </div>
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S07</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Deploy a jQuery plugin</h3>
+                        <p>Write an XHTML1.0 or HTML5 page. Add a link to this page on your homepage. Search online for a jQuery plugin that you find useful, and that we did not cover in class. Learn how to use it, and deploy it in this page. Demonstrate attempts to alter the style or behavior of the plugin to suit your design (change the color, sizes, speed of animation, etc).</p>
+                    </li>
+                </div>
+            </ul>
+    </div>
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S08</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Demonstrate dynamic content using SSIs, and Configure the Server Using .htaccess</h3>
+                        <p>Write your own ‘page not found’ html file that uses the same basic style and layout as your homepage. Include an .htaccess file in your root directory on bcitcomp.ca. In .htaccess, add a directive to make the server direct users that request pages that cannot be found (Error 404) to your ‘page not found’ file.</p>
+                    </li>
+                </div>
+            </ul>
+    </div>
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S09</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Work with a template based CMS</h3>
+                        <p>Create an account with either Wordpress or Tumblr. Choose a pre built theme, and make at least two alterations to it (color, font,etc). Add a minimum of three posts. Include the use of text, hyperlinks and images. The content of one of the three posts must include a list of what parts of the theme you changed. The content of the remaining posts may be anything you like. Use a latin generator to create generic content if you wish (http://www.lipsum.com/). Provide a link on your homepage to your Tumblr or Wordpress blog page.</p>
+                    </li>
+                </div>
+            </ul>
+    </div>
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S10</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Form a group and prepare for the project</h3>
+                        <p>Form a group of 2 – 3 students for working on the comp1950 group project. Determine the various skill sets represented in your group, and try to delegate tasks in equal measure to all. Elect a representative who will be the main liaison between your team and your instructor.</p>
+                    </li>
+                </div>
+            </ul>
+    </div>
+    <div class="width_container">
+
+        <div class="homework_bar">
+            <h2>Homework S11</h2>
+        </div>
+
+            <ul>
+
+                <div class="lesson">
+                    <li>
+                        <h3>Group Project | Comp1950 Re-design</h3>
+                        <p>Using production methods and development techniques from throughout this course, your group will create a proto-site and documents to support the redesign of the COMP1950 web site. The COMP 1950 owner would like the web site redesigned in order to better meet the needs of students. The website owner has contracted your group, as students of the class, to act as contractors for this project.</p>
+						<p>Students must have easy access to notes, examples and other information. The site should reflect the aims of the course: Standards compliant web development, CSS, HTML 5, Methodology-driven design, etc.</p>
+						<p>Think outside the box - don't just copy the current design. Look around at other sites and use your creativity. But - be realistic! Make your suggestions something that can work. If you have questions that will further refine your own direction, ask the owner of the site for details. Think about this project in context of the Methodology discussion of session 10.</p>
+						<p>All of this should be presented in an HTML 5 compliant web site with CSS. The layout must handle well in desktop and laptop modern browsers with varying widths and heights. It does not neccessarily have to be optimized for handheld devices, unless your group decides this would be a useful feature.</p>
+						<p>Your client (instructor) has filled out a project questionnaire (link below) to better clarify what they are looking for.</p>
+                    </li>
+                </div>
+            </ul>
+    </div>
+</section>
+
+
+<!-- AND EVERYTHING FROM HERE DOWN -->
+
+</div>
+</div>
+</body>
+</html>
