@@ -207,6 +207,25 @@ li {
     padding-bottom: 8px;
 }
 
+#page_examples {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 32px 40px;
+}
+
+#page_examples a {
+    list-style: none;
+    text-align: center;
+    padding: 4px;
+    width: calc(25% - 16px);
+    background-color: #b1b1b1;
+    color: white;
+}
+
+#page_examples a:hover {
+    background-color: black;
+}
+
 section {
     width: 100vw;
 }
