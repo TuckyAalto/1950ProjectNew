@@ -1,0 +1,64 @@
+<div class="width_container">
+
+        <h2>Homework <span class="session_number">| S08</span></h2>
+                <ul class="hw_details">
+                    
+                    <li class="threequarter_wide">
+                        <h3>Demonstrate dynamic content using SSIs, and Configure the Server Using .htaccess</h3>
+
+                            <p>Write your own ‘page not found’ html file that uses the same basic style and layout as your homepage. Include an .htaccess file in your root directory on bcitcomp.ca. In .htaccess, add a directive to make the server direct users that request pages that cannot be found (Error 404) to your ‘page not found’ file.</p>
+                        
+                            <p>Some operating systems make it difficult to create a file like .htaccess, since it has no filename per se, it only has an extension. If you cannot create your own .htaccess, you can download and update the sample from the course server: http://www.bcitcomp.ca/comp1950/downloads/htaccess.zip.</p>
+                        
+                            <p>Remember, some servers require the .shtml extension to be used on any files that use SSIs. If you want to be able to parse other files (eg: .html) you will need to add the appropriate directives to the .htaccess file.</p>
+                        
+                        <h3>Additional Criteria</h3>
+                        
+                            <ul class="hw_criteria">
+                                <li>Add a server side includes to your homepage so that the bottom (footer) of the page displays the date this page was last modified. The output should match this pattern: “Last modified: April 1 2015, 18:51PM”.</li>
+                                <li>Change all paths used by your homepage (eg: to CSS, images, and Javascript files) to be based on the server root. The path from the server root to your student folder will be based on bcitcomp.ca structure: For example, if you’re my.bcit.ca email address is sample_student@my.bcit.ca then your server root path would be /students/sample_student</li>
+                            </ul>
+                        
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div class="checklist_details">
+                                
+                                <div class="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete">Create an 'page not found' file to match your homepage</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete">Include an .htcaccessfile in your root directory</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete">Add a server side include that displays the 'last modified' date as specified</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete">Make all homepage paths root relative</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete">Uploaded to server</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete">Link and text file submitted to dropbox</p>
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
+
+                    </li>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 10</h4>
+                        <h4>Due: Session 09</h4>
+                        <h4>STATUS: INCOMPLETE</h4>
+                        
+                    </li>
+
+                </ul>
+    </div>

@@ -1,0 +1,79 @@
+<div class="width_container">
+
+        <h2>Homework <span class="session_number">| S04</span></h2>
+                <ul class="hw_details">
+                    
+                    <li class="threequarter_wide">
+                        <h3>Design a CSS layout</h3>
+
+                            <p>Create one layout that is demonstrated across three pages for your web space. Be sure your homepage from Homework#1 includes an easy to find link for finding one of these new pages. These pages may not use any of the previous layouts or styles from your earlier comp1950 work.</p>
+                        
+                        <h3>Additional Criteria</h3>
+                        
+                            <ul class="hw_criteria">
+                                <li>The pages must be free of structural errors.</li>
+                                <li>Use a CSS Reset to set a standard for the various browser defaults (choose from any available CSS resets, and you may modify it if you wish)</li>
+                                <li>Build an appealing, usable layout using external CSS (no tables for layout). The configuration of the layout is otherwise up to you (2/3/4 column, fixed/variable width, etc, etc). Build it on your own, don’t copy-paste online CSS templates, but you may use them as a guide for your own code. Be sure your layout can handle different quantities of content.</li>
+                                <li>Your layout should include multiple icon images (eg: social media, navigation icons, etc, your choice). Search online for premade icons you can use. Use a single sprite image for all icon images.</li>
+                                <li>Populate each page with generic lorum ipsum content. Be sure to include examples of various headings, paragraphs, and hyperlinks. Demonstrate that your layout is flexible by including varying quantities of content on each of the three pages.</li>
+                                <li>Include a well styled HTML list navigation that allows the user to browse all three pages of this homework. The other hyperlinks do not have to link to actual pages.</li>
+                                <li>All content must be styled with effective colors and fonts. All links must be pseudoclassed.</li>
+                                <li>Follow best practices for web design: high contrast for foreground content, elements in alignment with each other, use an appealing color palette, and an appropriate amount of white space</li>
+                                <li>Only external CSS is permitted</li>
+                                <li>Use tags semantically</li>
+                                <li>Use commenting, carriage returns and tabs to create readable, well presented code</li>
+                            </ul>
+                        
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div class="checklist_details">
+                                
+                                <div class="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Dynamic layout applied across 3 pages</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>Styles applied via external stylesheet only</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>CSS reset file included</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>Use of icons and image sprites</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete" checked>List style navigation</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>HTML Validator Link</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>CSS Validator Link</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete" checked>Uploaded to server</p>
+                                    
+                                        <p><input type="checkbox" name="S02item06" value="Complete" checked>Linked via your student homepage</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete" checked>Link and text file submitted to dropbox</p>
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
+
+                    </li>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 10</h4>
+                        <h4>Due: Session 05</h4>
+                        <h4>STATUS: COMPLETE</h4>
+                        
+                    </li>
+
+                </ul>
+    </div>

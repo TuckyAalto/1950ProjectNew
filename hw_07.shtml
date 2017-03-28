@@ -1,0 +1,72 @@
+<div class="width_container">
+
+        <h2>Homework <span class="session_number">| S07</span></h2>
+                <ul class="hw_details">
+                    
+                    <li class="threequarter_wide">
+                        <h3>Deploy a jQuery plugin</h3>
+
+                            <p>Write an XHTML1.0 or HTML5 page. Add a link to this page on your homepage. Search online for a jQuery plugin that you find useful, and that we did not cover in class. Learn how to use it, and deploy it in this page. Demonstrate attempts to alter the style or behavior of the plugin to suit your design (change the color, sizes, speed of animation, etc).</p>
+                        
+                            <p>If you cannot find any plugins you like, consult the list of links in the Plugin section of session seven online lecture notes: http://bcitcomp.com/comp1950/lectures/seven/. If you have trouble implementing the plugin of your choice, consider finding a different one that you can work with more easily.</p>
+                        
+                        <h3>Additional Criteria</h3>
+                          <p>Include the following:</p>
+                        
+                            <ul class="hw_criteria">
+                                <li>Use the plugin (eg if you chose a navigation plugin, demonstrate it by displaying the navigation in your page)</li>
+                                <li>A text description of the plugin (in your own words)</li>
+                                <li>A list of any style/behavior you have customized</li>
+                                <li>A link to the site you downloaded the plugin from</li>
+                                <li>A link(s) to the page(s) that taught you how to use it</li>
+                            </ul>
+                        
+                            <a href="#">Download the PDF</a>
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="quarter_wide checklist">
+
+                        <h3>Checklist</h3>
+                          
+                            <div class="checklist_details">
+                                
+                                <div class="checklist_icon"></div>
+                                
+                                <form action="/action_page.php" method="get">
+                                        <p><input type="checkbox" name="S02item01" value="Complete" checked>Deploy a jQuery plugin</p>
+
+                                        <p><input type="checkbox" name="S02item02" value="Complete" checked>A link to the site you downloaded the plugin from</p>
+                                    
+                                        <p><input type="checkbox" name="S02item03" value="Complete">Write-up, describing the plugin</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete" checked>Deployed HTML5 shiv</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete">HTML Validator Link</p>
+                                    
+                                        <p><input type="checkbox" name="S02item04" value="Complete">CSS Validator Link</p>
+                                    
+                                        <p><input type="checkbox" name="S02item05" value="Complete">Uploaded to server</p>
+                                    
+                                        <p><input type="checkbox" name="S02item06" value="Complete">Linked via your student homepage</p>
+                                    
+                                        <p><input type="checkbox" name="S02item07" value="Complete">Link and text file submitted to dropbox</p>
+                                    
+                                    <input class="save" type="submit" value="Save Progress">
+                                </form>
+                                
+                            </div>
+
+                    </li>
+                    
+                    <li class="hw_summary">
+                        <h4>Possible Marks: 10</h4>
+                        <h4>Due: Session 08</h4>
+                        <h4>STATUS: IN PROGRESS</h4>
+                        
+                    </li>
+
+                </ul>
+    </div>
